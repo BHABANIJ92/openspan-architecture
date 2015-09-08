@@ -25,9 +25,6 @@
     <DesignComponent id="Automator-8D2B4561632DBB2" className="F_ShowMessageDialog" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D2B5067B44ABAA" className="_P_CompareStringValues" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D2B4856CF7E38D" className="_P_ContainsStringValue" type="Automation" isPublic="True" screenShots="" />
-    <DesignComponent id="Automator-8D2B83F99CAED57" className="_P_ConvertStringToDouble" type="Automation" isPublic="True" screenShots="" />
-    <DesignComponent id="Automator-8D2B840BB779709" className="_P_ConvertStringToFloat" type="Automation" isPublic="True" screenShots="" />
-    <DesignComponent id="Automator-8D2B84196D9F020" className="_P_ConvertStringToInteger" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D2B47DAEC1EB42" className="_P_FormatEmail" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D2B512C37C5C52" className="P_CompareStringValues" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D2B485797A403D" className="P_ContainsStringValue" type="Automation" isPublic="True" screenShots="" />

@@ -100,6 +100,10 @@
       <Private>False</Private>
       <HintPath>$(OPENSPAN52DIR)\OpenSpan.Script.dll</HintPath>
     </Reference>
+    <Reference Include="OpenSpan.Threading, Version=6.2.14.0, Culture=neutral, PublicKeyToken=null">
+      <Private>False</Private>
+      <HintPath>$(OPENSPAN52DIR)\OpenSpan.Threading.dll</HintPath>
+    </Reference>
     <Reference Include="System">
       <Private>False</Private>
     </Reference>
