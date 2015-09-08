@@ -1,0 +1,8 @@
+<Cache>
+  <DesignComponents>
+    <DesignComponent id="GlobalContainer-8D2B4465E7223A6" className="GlobalContainer" type="GlobalContainer" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D2B4466735F1B6" className="Main" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="WebAdapter-8D2B44654214CF6" className="WebAdapter" type="Adapter" isPublic="True" screenShots="" />
+    <DesignComponent id="GlobalContainer-8D2B44704EFE786" className="WebAdapterGlobalContainer" type="GlobalContainer" isPublic="True" screenShots="" />
+  </DesignComponents>
+</Cache>

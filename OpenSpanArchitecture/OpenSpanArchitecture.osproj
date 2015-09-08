@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProductVersion>6.0</ProductVersion>
+    <ProjectGuid>{74bb059f-7ba4-4b60-98c8-dd1cb309c263}</ProjectGuid>
+    <RootNamespace>OpenSpanArchitecture</RootNamespace>
+    <AssemblyName>OpenSpanArchitecture</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <!-- Custom properties -->
+    <Name>OpenSpanArchitecture</Name>
+    <Id>Project-8D2B445854EFE75</Id>
+    <Version>6.2.14.0</Version>
+    <TransformationVersion>5.2.259.6</TransformationVersion>
+    <ConfigurationFile>
+    </ConfigurationFile>
+    <StartupForm>
+    </StartupForm>
+    <TargetLevel>Driver</TargetLevel>
+    <!-- Deployment -->
+    <DeploymentFiles>
+    </DeploymentFiles>
+    <CustomUpgradeVersion>4.0.113.0</CustomUpgradeVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <XmlDocumentation>True</XmlDocumentation>
+    <!-- Deployment -->
+    <DeploymentPackage>True</DeploymentPackage>
+    <DeploymentPath>bin\Debug\</DeploymentPath>
+    <DeploymentVersion>1.0</DeploymentVersion>
+    <DeploymentVersionIncrement>True</DeploymentVersionIncrement>
+    <DeploymentIncludeRunSettings>False</DeploymentIncludeRunSettings>
+    <DeploymentTranslators>True</DeploymentTranslators>
+    <DeploymentAssemblies>True</DeploymentAssemblies>
+    <DeploymentSign>False</DeploymentSign>
+    <DeploymentCertificate>
+    </DeploymentCertificate>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <XmlDocumentation>False</XmlDocumentation>
+    <!-- Deployment -->
+    <DeploymentPackage>True</DeploymentPackage>
+    <DeploymentPath>bin\Release\</DeploymentPath>
+    <DeploymentVersion>1.0</DeploymentVersion>
+    <DeploymentVersionIncrement>True</DeploymentVersionIncrement>
+    <DeploymentIncludeRunSettings>False</DeploymentIncludeRunSettings>
+    <DeploymentTranslators>True</DeploymentTranslators>
+    <DeploymentAssemblies>True</DeploymentAssemblies>
+    <DeploymentSign>False</DeploymentSign>
+    <DeploymentCertificate>
+    </DeploymentCertificate>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OpenSpanEnvVar>OPENSPAN52DIR</OpenSpanEnvVar>
+    <OpenSpanPath>$(OPENSPAN52DIR)</OpenSpanPath>
+  </PropertyGroup>
+  <Import Project="$(OpenSpanPath)\OpenSpan.targets" />
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821">
+      <Private>False</Private>
+      <HintPath>$(OPENSPAN52DIR)\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
+      <Private>False</Private>
+      <HintPath>$(OPENSPAN52DIR)\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSpan.Adapters">
+      <Private>False</Private>
+      <HintPath>$(OPENSPAN52DIR)\OpenSpan.Adapters.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSpan.Adapters.Web">
+      <Private>False</Private>
+      <HintPath>$(OPENSPAN52DIR)\OpenSpan.Adapters.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSpan.Adapters.Windows">
+      <Private>False</Private>
+      <HintPath>$(OPENSPAN52DIR)\OpenSpan.Adapters.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSpan.Automation">
+      <Private>False</Private>
+      <HintPath>$(OPENSPAN52DIR)\OpenSpan.Automation.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSpan.Common, Version=6.2.14.0, Culture=neutral, PublicKeyToken=null">
+      <Private>False</Private>
+      <HintPath>$(OPENSPAN52DIR)\OpenSpan.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSpan.Controls, Version=6.2.14.0, Culture=neutral, PublicKeyToken=null">
+      <Private>False</Private>
+      <HintPath>$(OPENSPAN52DIR)\OpenSpan.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSpan.Script, Version=6.2.14.0, Culture=neutral, PublicKeyToken=null">
+      <Private>False</Private>
+      <HintPath>$(OPENSPAN52DIR)\OpenSpan.Script.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan">
+      <HintPath>$(OPENSPAN52DIR)\OpenSpan.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Runtime.Core">
+      <HintPath>$(OPENSPAN52DIR)\OpenSpan.Runtime.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="System\Procedures\Private\" />
+    <Folder Include="System\Procedures\Public\" />
+    <Folder Include="System\UI\UI_Menu" />
+    <Folder Include="System\UI\UI_Menu\Events" />
+    <Folder Include="System\UI\UI_Menu\Private" />
+    <Folder Include="System\UI\UI_Menu\Public" />
+    <Folder Include="WebAdapter" />
+    <Folder Include="System" />
+    <Folder Include="Properties\" />
+    <Folder Include="System\Configuration" />
+    <Folder Include="System\Functions" />
+    <Folder Include="System\UI" />
+    <Folder Include="System\Procedures\" />
+    <Folder Include="System\Services" />
+    <Folder Include="WebAdapter\Events" />
+    <Folder Include="WebAdapter\Public" />
+    <Folder Include="WebAdapter\Private" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\ImportTypeMap.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GlobalContainer.os">
+      <SubType>Component</SubType>
+      <Id>GlobalContainer-8D2B4465E7223A6</Id>
+    </Compile>
+    <Compile Include="Main.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B4466735F1B6</Id>
+    </Compile>
+    <Compile Include="System\Functions\F_CompareIntegerValues.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B5115AF9DD91</Id>
+    </Compile>
+    <Compile Include="System\Functions\F_CompareStringValues.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B46B48DE9CDD</Id>
+    </Compile>
+    <Compile Include="System\Functions\F_ContainsStringValue.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B4739DE6E7BC</Id>
+    </Compile>
+    <Compile Include="System\Functions\F_FormatEmail.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B47906712695</Id>
+    </Compile>
+    <Compile Include="System\Functions\F_WriteDiagnosticLogByType.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B4472D6C6FD6</Id>
+    </Compile>
+    <Compile Include="System\Functions\F_WriteEventLogByType.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B45233C2F3A1</Id>
+    </Compile>
+    <Compile Include="System\Functions\F_ShowMessageDialog.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B4561632DBB2</Id>
+    </Compile>
+    <Compile Include="System\Procedures\Private\_P_CompareIntegerValues.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B5142E5ACD58</Id>
+    </Compile>
+    <Compile Include="System\Procedures\Private\_P_CompareStringValues.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B5067B44ABAA</Id>
+    </Compile>
+    <Compile Include="System\Procedures\Private\_P_ContainsStringValue.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B4856CF7E38D</Id>
+    </Compile>
+    <Compile Include="System\Procedures\Private\_P_FormatEmail.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B47DAEC1EB42</Id>
+    </Compile>
+    <Compile Include="System\Procedures\Public\P_CompareStringValues.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B512C37C5C52</Id>
+    </Compile>
+    <Compile Include="System\Procedures\Public\P_CompareIntegerValues.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B507D8F8446B</Id>
+    </Compile>
+    <Compile Include="System\Procedures\Public\P_ContainsStringValue.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B485797A403D</Id>
+    </Compile>
+    <Compile Include="System\Procedures\Public\P_FormatEmail.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B480E94EB6F1</Id>
+    </Compile>
+    <Compile Include="System\SystemGlobalContainer.os">
+      <SubType>Component</SubType>
+      <Id>GlobalContainer-8D2B446F28A4776</Id>
+    </Compile>
+    <Compile Include="WebAdapter\WebAdapter.os">
+      <SubType>Component</SubType>
+      <Id>WebAdapter-8D2B44654214CF6</Id>
+    </Compile>
+    <Compile Include="WebAdapter\WebAdapterGlobalContainer.os">
+      <SubType>Component</SubType>
+      <Id>GlobalContainer-8D2B44704EFE786</Id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ReleaseNotes.txt" />
+  </ItemGroup>
+</Project>

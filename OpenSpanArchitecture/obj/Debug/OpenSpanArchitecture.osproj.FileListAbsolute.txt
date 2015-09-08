@@ -1,0 +1,3 @@
+C:\Users\vandre_leal\Documents\OpenSpan Studio for VS 2010\Projects\OpenSpanArchitecture\OpenSpanArchitecture\obj\Debug\OpenSpanArchitecture.osprojResolveAssemblyReference.cache
+C:\Users\vandre_leal\Documents\OpenSpan Studio for VS 2010\Projects\OpenSpanArchitecture\OpenSpanArchitecture\obj\Debug\.resources
+C:\Users\vandre_leal\Documents\OpenSpan Studio for VS 2010\Projects\OpenSpanArchitecture\OpenSpanArchitecture\obj\Debug\OpenSpanArchitecture.osproj.GenerateResource.Cache
