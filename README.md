@@ -6,11 +6,11 @@ This repository contains a sample project of an OpenSpan Architecture Model that
 
 **[P] = Procedures available**
 
-- F_CompareStringValues [P]
-- F_CompareIntegerValues [P]
-- F_CompareStringValues [P]
-- F_ContainsStringValue [P]
-- F_FormatEmail [P]
-- F_ShowMessageDialog
-- F_WriteDiagnosticLogByType
-- F_WriteEventLogByType
+F_CompareStringValues **[P]**
+F_CompareIntegerValues **[P]**
+F_CompareStringValues **[P]**
+F_ContainsStringValue **[P]**
+F_FormatEmail **[P]**
+F_ShowMessageDialog
+F_WriteDiagnosticLogByType
+F_WriteEventLogByType
