@@ -10,42 +10,42 @@
       <Assembly Value="OpenSpan.Script, Version=6.2.14.0, Culture=neutral, PublicKeyToken=null" />
     </AssemblyReferences>
     <DynamicAssemblyReferences>
-      <Assembly Value="BooleanExpression-8D2B511C0020A7A" Type="Dynamic.BooleanExpression_8D2B511C0020A7A.Expression" />
+      <Assembly Value="BooleanExpression-8D2B830452613C3" Type="Dynamic.BooleanExpression_8D2B830452613C3.Expression" />
     </DynamicAssemblyReferences>
     <FileReferences />
     <BuildReferences />
   </ComponentInfo>
   <Component Version="1.0">
-    <OpenSpan.Automation.Automator Name="F_CompareIntegerValues" Id="Automator-8D2B5115AF9DD91">
+    <OpenSpan.Automation.Automator Name="F_CompareFloatValues" Id="Automator-8D2B830038DEE9F">
       <AutomationDocument>
         <Name Value="" />
-        <Size Value="5005, 5010" />
+        <Size Value="5000, 5000" />
         <Objects>
           <ConnectionBlock>
-            <ConnectableUniqueId Value="Automator-8D2B5115AF9DD91\EntryPoint-8D2B511657614C7" />
+            <ConnectableUniqueId Value="Automator-8D2B830038DEE9F\EntryPoint-8D2B8300A81AA7B" />
             <Left Value="40" />
             <Top Value="200" />
-            <PartID Value="2" />
-          </ConnectionBlock>
-          <ConnectionBlock>
-            <ConnectableUniqueId Value="Automator-8D2B5115AF9DD91\ConnectableMethod-8D2B511C009F9EE" />
-            <PartID Value="7" />
-            <Left Value="220" />
-            <Top Value="280" />
+            <PartID Value="1" />
           </ConnectionBlock>
           <ConnectionBlock type="OpenSpan.Automation.Design.ConnectionBlocks.MultiExitPointBlock">
-            <ConnectableUniqueId Value="Automator-8D2B5115AF9DD91\ExitPoint-8D2B511D478E834" />
+            <ConnectableUniqueId Value="Automator-8D2B830038DEE9F\ExitPoint-8D2B8300A879E87" />
             <Left Value="420" />
             <Top Value="280" />
-            <PartID Value="11" />
+            <PartID Value="3" />
             <Title Value="Exit" />
             <EventName Value="" />
           </ConnectionBlock>
+          <ConnectionBlock>
+            <ConnectableUniqueId Value="Automator-8D2B830038DEE9F\ConnectableMethod-8D2B830452FD8C3" />
+            <PartID Value="11" />
+            <Left Value="220" />
+            <Top Value="280" />
+          </ConnectionBlock>
         </Objects>
         <Links>
-          <Link PartID="8" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
-            <From PartID="2" PortName="param1" PortType="Property" ConnectableId="Automator-8D2B5115AF9DD91\EntryPoint-8D2B511657614C7" MemberComponentId="EMPTY" />
-            <To PartID="7" PortName="x" PortType="Property" ConnectableId="Automator-8D2B5115AF9DD91\ConnectableMethod-8D2B511C009F9EE" MemberComponentId="Automator-8D2B5115AF9DD91\ConnectableMethod-8D2B511C009F9EE" />
+          <Link PartID="12" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
+            <From PartID="1" PortName="param1" PortType="Property" ConnectableId="Automator-8D2B830038DEE9F\EntryPoint-8D2B8300A81AA7B" MemberComponentId="EMPTY" />
+            <To PartID="11" PortName="x" PortType="Property" ConnectableId="Automator-8D2B830038DEE9F\ConnectableMethod-8D2B830452FD8C3" MemberComponentId="Automator-8D2B830038DEE9F\ConnectableMethod-8D2B830452FD8C3" />
             <LinkPoints>
               <Point value="156, 248" />
               <Point value="166, 248" />
@@ -56,9 +56,9 @@
               <Point value="239, 283" />
             </LinkPoints>
           </Link>
-          <Link PartID="9" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
-            <From PartID="2" PortName="_param1" PortType="Property" ConnectableId="Automator-8D2B5115AF9DD91\EntryPoint-8D2B511657614C7" MemberComponentId="EMPTY" />
-            <To PartID="7" PortName="y" PortType="Property" ConnectableId="Automator-8D2B5115AF9DD91\ConnectableMethod-8D2B511C009F9EE" MemberComponentId="Automator-8D2B5115AF9DD91\ConnectableMethod-8D2B511C009F9EE" />
+          <Link PartID="13" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
+            <From PartID="1" PortName="_param1" PortType="Property" ConnectableId="Automator-8D2B830038DEE9F\EntryPoint-8D2B8300A81AA7B" MemberComponentId="EMPTY" />
+            <To PartID="11" PortName="y" PortType="Property" ConnectableId="Automator-8D2B830038DEE9F\ConnectableMethod-8D2B830452FD8C3" MemberComponentId="Automator-8D2B830038DEE9F\ConnectableMethod-8D2B830452FD8C3" />
             <LinkPoints>
               <Point value="156, 265" />
               <Point value="166, 265" />
@@ -69,9 +69,9 @@
               <Point value="268, 283" />
             </LinkPoints>
           </Link>
-          <Link PartID="10" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
-            <From PartID="2" PortName="Complete" PortType="Event" ConnectableId="Automator-8D2B5115AF9DD91\EntryPoint-8D2B511657614C7" MemberComponentId="Automator-8D2B5115AF9DD91\EntryPoint-8D2B511657614C7" />
-            <To PartID="7" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D2B5115AF9DD91\ConnectableMethod-8D2B511C009F9EE" MemberComponentId="Automator-8D2B5115AF9DD91\ConnectableMethod-8D2B511C009F9EE" />
+          <Link PartID="14" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
+            <From PartID="1" PortName="Complete" PortType="Event" ConnectableId="Automator-8D2B830038DEE9F\EntryPoint-8D2B8300A81AA7B" MemberComponentId="Automator-8D2B830038DEE9F\EntryPoint-8D2B8300A81AA7B" />
+            <To PartID="11" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D2B830038DEE9F\ConnectableMethod-8D2B830452FD8C3" MemberComponentId="Automator-8D2B830038DEE9F\ConnectableMethod-8D2B830452FD8C3" />
             <LinkPoints>
               <Point value="156, 219" />
               <Point value="166, 219" />
@@ -81,9 +81,9 @@
               <Point value="223, 303" />
             </LinkPoints>
           </Link>
-          <Link PartID="12" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
-            <From PartID="7" PortName="Complete" PortType="Event" ConnectableId="Automator-8D2B5115AF9DD91\ConnectableMethod-8D2B511C009F9EE" MemberComponentId="Automator-8D2B5115AF9DD91\ConnectableMethod-8D2B511C009F9EE" />
-            <To PartID="11" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D2B5115AF9DD91\ExitPoint-8D2B511D478E834" MemberComponentId="Automator-8D2B5115AF9DD91\ExitPoint-8D2B511D478E834" />
+          <Link PartID="15" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
+            <From PartID="11" PortName="Complete" PortType="Event" ConnectableId="Automator-8D2B830038DEE9F\ConnectableMethod-8D2B830452FD8C3" MemberComponentId="Automator-8D2B830038DEE9F\ConnectableMethod-8D2B830452FD8C3" />
+            <To PartID="3" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D2B830038DEE9F\ExitPoint-8D2B8300A879E87" MemberComponentId="Automator-8D2B830038DEE9F\ExitPoint-8D2B8300A879E87" />
             <LinkPoints>
               <Point value="334, 303" />
               <Point value="344, 303" />
@@ -93,9 +93,9 @@
               <Point value="423, 299" />
             </LinkPoints>
           </Link>
-          <Link PartID="13" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
-            <From PartID="7" PortName="Result" PortType="Property" ConnectableId="Automator-8D2B5115AF9DD91\ConnectableMethod-8D2B511C009F9EE" MemberComponentId="Automator-8D2B5115AF9DD91\ConnectableMethod-8D2B511C009F9EE" />
-            <To PartID="11" PortName="Result" PortType="Property" ConnectableId="Automator-8D2B5115AF9DD91\ExitPoint-8D2B511D478E834" MemberComponentId="EMPTY" />
+          <Link PartID="16" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
+            <From PartID="11" PortName="Result" PortType="Property" ConnectableId="Automator-8D2B830038DEE9F\ConnectableMethod-8D2B830452FD8C3" MemberComponentId="Automator-8D2B830038DEE9F\ConnectableMethod-8D2B830452FD8C3" />
+            <To PartID="3" PortName="Result" PortType="Property" ConnectableId="Automator-8D2B830038DEE9F\ExitPoint-8D2B8300A879E87" MemberComponentId="EMPTY" />
             <LinkPoints>
               <Point value="306, 322" />
               <Point value="306, 332" />
@@ -108,7 +108,7 @@
           </Link>
         </Links>
         <Comments>
-          <Comment Text="Automation: F_CompareIntegerValues&#xD;&#xA;Created By: Vandré Leal Cândido&#xD;&#xA;Created On: 09/04/2015&#xD;&#xA;Modified By:&#xD;&#xA;Modified On:&#xD;&#xA;&#xD;&#xA;Description: This automation compares if two given integers are equals." PartID="1" Position="36, 38" UnanchoredOffset="-30, -30" BaseWidth="30" />
+          <Comment Text="Automation: F_CompareFloatValues&#xD;&#xA;Created By: Vandré Leal Cândido&#xD;&#xA;Created On: 09/08/2015&#xD;&#xA;Modified By:&#xD;&#xA;Modified On:&#xD;&#xA;&#xD;&#xA;Description: This automation compares if two given float values are equals." PartID="9" Position="36, 38" UnanchoredOffset="-30, -30" BaseWidth="30" />
         </Comments>
         <SubGraphs />
       </AutomationDocument>
@@ -116,19 +116,19 @@
       <Content Name="DynamicMembers">
         <Items>
           <OpenSpan.DynamicMembers.DynamicMethodInfo dynamicType="Method" name="_EntryPointExecute" aliasName="Execute" visibility="DefaultOn" source="" blockTypeName="OpenSpan.Automation.Design.ConnectionBlocks.EntryPointExecuteBlock" returnType="System.Boolean">
-            <param name="param1" aliasName="integer1" paramType="System.Int32" isIn="True" isOut="False" position="0" />
-            <param name="_param1" aliasName="integer2" paramType="System.Int32" isIn="True" isOut="False" position="1" />
+            <param name="param1" aliasName="float1" paramType="System.Single" isIn="True" isOut="False" position="0" />
+            <param name="_param1" aliasName="float2" paramType="System.Single" isIn="True" isOut="False" position="1" />
           </OpenSpan.DynamicMembers.DynamicMethodInfo>
         </Items>
       </Content>
     </OpenSpan.Automation.Automator>
-    <OpenSpan.Automation.EntryPoint Name="entryPoint1" Id="EntryPoint-8D2B511657614C7">
+    <OpenSpan.Automation.EntryPoint Name="entryPoint1" Id="EntryPoint-8D2B8300A81AA7B">
       <AliasName Value="Execute" />
       <ComponentName Value="Execute" />
       <DisplayName Value="Execute" />
       <ExceptionsHandled Value="False" />
       <InstanceTypeName Value="OpenSpan.Automation.EntryPoint" />
-      <InstanceUniqueId Value="Automator-8D2B5115AF9DD91\EntryPoint-8D2B511657614C7" />
+      <InstanceUniqueId Value="Automator-8D2B830038DEE9F\EntryPoint-8D2B8300A81AA7B" />
       <MemberDetails Value="" />
       <MethodName Value="_EntryPointExecute" />
       <Removing Value="False" />
@@ -138,7 +138,6 @@
         <Items>
           <OpenSpan.Automation.HiddenTypeProxy Name="hiddenTypeProxy1" Id="HiddenTypeProxy-8D2B51166DB3E73">
             <AliasName Value="integer1" />
-            <Parent Value="ComponentReference" Name="entryPoint1" />
             <ProxiedTypeName Value="System.Int32, mscorlib" />
             <Scope Value="Local" Extended="True" />
             <UseAlias Value="True" />
@@ -150,7 +149,6 @@
           </OpenSpan.Automation.HiddenTypeProxy>
           <OpenSpan.Automation.HiddenTypeProxy Name="hiddenTypeProxy2" Id="HiddenTypeProxy-8D2B51177D9C2E8">
             <AliasName Value="integer2" />
-            <Parent Value="ComponentReference" Name="entryPoint1" />
             <ProxiedTypeName Value="System.Int32, mscorlib" />
             <Scope Value="Local" Extended="True" />
             <UseAlias Value="True" />
@@ -165,12 +163,26 @@
       <Content Name="DynamicMembers">
         <Items>
           <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="Result" canRead="True" canWrite="True" type="System.Boolean" aliasName="Result" shouldSerialize="False" visibility="AlwaysHidden" source="" blockTypeName="" />
-          <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="param1" canRead="False" canWrite="True" type="System.Int32" aliasName="integer1" shouldSerialize="False" visibility="AlwaysHidden" source="" blockTypeName="" />
-          <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="_param1" canRead="False" canWrite="True" type="System.Int32" aliasName="integer2" shouldSerialize="False" visibility="AlwaysHidden" source="" blockTypeName="" />
+          <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="param1" canRead="False" canWrite="True" type="System.Single" aliasName="float1" shouldSerialize="False" visibility="AlwaysHidden" source="" blockTypeName="" />
+          <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="_param1" canRead="False" canWrite="True" type="System.Single" aliasName="float2" shouldSerialize="False" visibility="AlwaysHidden" source="" blockTypeName="" />
         </Items>
       </Content>
     </OpenSpan.Automation.EntryPoint>
-    <OpenSpan.Script.Expression.BooleanExpression Name="booleanExpression1" Id="BooleanExpression-8D2B511C0020A7A">
+    <OpenSpan.Automation.ExitPoint Name="exitPoint1" Id="ExitPoint-8D2B8300A879E87">
+      <ComponentName Value="Execute" />
+      <DisplayName Value="Exit" />
+      <EntryPoint Value="ComponentReference" Name="entryPoint1" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="OpenSpan.Automation.EntryPoint" />
+      <InstanceUniqueId Value="Automator-8D2B830038DEE9F\EntryPoint-8D2B8300A81AA7B" />
+      <MemberDetails Value="" />
+      <Content Name="DynamicMembers">
+        <Items>
+          <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="Result" canRead="True" canWrite="True" type="System.Boolean" aliasName="Result" shouldSerialize="False" visibility="DefaultOn" source="" blockTypeName="" />
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ExitPoint>
+    <OpenSpan.Script.Expression.BooleanExpression Name="booleanExpression1" Id="BooleanExpression-8D2B830452613C3">
       <Expression Value="x == y" />
       <Scope Value="Local" Extended="True" />
       <Valid Value="True" />
@@ -195,12 +207,12 @@
         </Items>
       </Content>
     </OpenSpan.Script.Expression.BooleanExpression>
-    <OpenSpan.Automation.ConnectableMethod Name="connectableMethod1" Id="ConnectableMethod-8D2B511C009F9EE">
+    <OpenSpan.Automation.ConnectableMethod Name="connectableMethod1" Id="ConnectableMethod-8D2B830452FD8C3">
       <ComponentName Value="booleanExpression1" />
       <DisplayName Value="Evaluate" />
       <ExceptionsHandled Value="False" />
       <InstanceTypeName Value="OpenSpan.Script.Expression.BooleanExpression" />
-      <InstanceUniqueId Value="Automator-8D2B5115AF9DD91\BooleanExpression-8D2B511C0020A7A" />
+      <InstanceUniqueId Value="Automator-8D2B830038DEE9F\BooleanExpression-8D2B830452613C3" />
       <MemberDetails Value=".Evaluate() Method" />
       <ParamsLength Value="0" />
       <SerializedParamsDefaultValues Value="" />
@@ -245,19 +257,5 @@
         </Items>
       </Content>
     </OpenSpan.Automation.ConnectableMethod>
-    <OpenSpan.Automation.ExitPoint Name="exitPoint1" Id="ExitPoint-8D2B511D478E834">
-      <ComponentName Value="Execute" />
-      <DisplayName Value="Exit" />
-      <EntryPoint Value="ComponentReference" Name="entryPoint1" />
-      <ExceptionsHandled Value="False" />
-      <InstanceTypeName Value="OpenSpan.Automation.EntryPoint" />
-      <InstanceUniqueId Value="Automator-8D2B5115AF9DD91\EntryPoint-8D2B511657614C7" />
-      <MemberDetails Value="" />
-      <Content Name="DynamicMembers">
-        <Items>
-          <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="Result" canRead="True" canWrite="True" type="System.Boolean" aliasName="Result" shouldSerialize="False" visibility="DefaultOn" source="" blockTypeName="" />
-        </Items>
-      </Content>
-    </OpenSpan.Automation.ExitPoint>
   </Component>
 </OpenSpanDesignDocument>

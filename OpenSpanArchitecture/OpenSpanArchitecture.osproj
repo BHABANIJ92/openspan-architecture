@@ -155,6 +155,10 @@
       <SubType>Component</SubType>
       <Id>Automator-8D2B4466735F1B6</Id>
     </Compile>
+    <Compile Include="System\Functions\F_CompareFloatValues.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B830038DEE9F</Id>
+    </Compile>
     <Compile Include="System\Functions\F_CompareIntegerValues.os">
       <SubType>Component</SubType>
       <Id>Automator-8D2B5115AF9DD91</Id>
@@ -183,6 +187,10 @@
       <SubType>Component</SubType>
       <Id>Automator-8D2B4561632DBB2</Id>
     </Compile>
+    <Compile Include="System\Procedures\Private\_P_CompareFloatValues.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B830790A2D38</Id>
+    </Compile>
     <Compile Include="System\Procedures\Private\_P_CompareIntegerValues.os">
       <SubType>Component</SubType>
       <Id>Automator-8D2B5142E5ACD58</Id>
@@ -198,6 +206,10 @@
     <Compile Include="System\Procedures\Private\_P_FormatEmail.os">
       <SubType>Component</SubType>
       <Id>Automator-8D2B47DAEC1EB42</Id>
+    </Compile>
+    <Compile Include="System\Procedures\Public\P_CompareFloatValues.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B8317400CB02</Id>
     </Compile>
     <Compile Include="System\Procedures\Public\P_CompareStringValues.os">
       <SubType>Component</SubType>

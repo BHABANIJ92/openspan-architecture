@@ -48,8 +48,8 @@
           </ConnectionBlock>
           <ConnectionBlock type="OpenSpan.Automation.Design.ConnectionBlocks.MultiExitPointBlock">
             <ConnectableUniqueId Value="Automator-8D2B507D8F8446B\ExitPoint-8D2B507F48EF34B" />
-            <Left Value="558" />
-            <Top Value="352" />
+            <Left Value="520" />
+            <Top Value="340" />
             <PartID Value="10" />
             <Title Value="Exit" />
             <EventName Value="" />
@@ -88,10 +88,10 @@
             <LinkPoints>
               <Point value="443, 405" />
               <Point value="453, 405" />
-              <Point value="502, 405" />
-              <Point value="502, 371" />
-              <Point value="551, 371" />
-              <Point value="561, 371" />
+              <Point value="455, 405" />
+              <Point value="455, 359" />
+              <Point value="513, 359" />
+              <Point value="523, 359" />
             </LinkPoints>
           </Link>
           <Link PartID="21" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
@@ -139,9 +139,9 @@
               <Point value="443, 345" />
               <Point value="453, 345" />
               <Point value="455, 345" />
-              <Point value="455, 400" />
-              <Point value="551, 400" />
-              <Point value="561, 400" />
+              <Point value="455, 388" />
+              <Point value="513, 388" />
+              <Point value="523, 388" />
             </LinkPoints>
           </Link>
           <Link PartID="25" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
@@ -160,11 +160,11 @@
           </Link>
         </Links>
         <Comments>
-          <Comment Text="Automation: _P_CompareIntegerValues&#xD;&#xA;Created By: Vandré Leal Cândido&#xD;&#xA;Created On: 09/04/2015&#xD;&#xA;Modified By:&#xD;&#xA;Modified On:&#xD;&#xA;&#xD;&#xA;Description: This automation compares if two given integers are equals." PartID="12" Position="36, 38" UnanchoredOffset="-30, -30" BaseWidth="30" />
+          <Comment Text="Automation: P_CompareIntegerValues&#xD;&#xA;Created By: Vandré Leal Cândido&#xD;&#xA;Created On: 09/04/2015&#xD;&#xA;Modified By:&#xD;&#xA;Modified On:&#xD;&#xA;&#xD;&#xA;Description: This automation compares if two given integers are equals." PartID="12" Position="36, 38" UnanchoredOffset="-30, -30" BaseWidth="30" />
         </Comments>
         <SubGraphs />
       </AutomationDocument>
-      <DocumentScale Value="0.987562239" />
+      <DocumentScale Value="0.8912749" />
       <Content Name="DynamicMembers">
         <Items>
           <OpenSpan.DynamicMembers.DynamicMethodInfo dynamicType="Method" name="_EntryPointExecute" aliasName="Execute" visibility="DefaultOn" source="" blockTypeName="OpenSpan.Automation.Design.ConnectionBlocks.EntryPointExecuteBlock" returnType="System.Boolean">
