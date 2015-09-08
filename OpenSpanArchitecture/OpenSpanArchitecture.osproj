@@ -155,9 +155,13 @@
       <SubType>Component</SubType>
       <Id>Automator-8D2B4466735F1B6</Id>
     </Compile>
+    <Compile Include="System\Functions\F_CompareDoubleValues.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B83B0A196237</Id>
+    </Compile>
     <Compile Include="System\Functions\F_CompareFloatValues.os">
       <SubType>Component</SubType>
-      <Id>Automator-8D2B830038DEE9F</Id>
+      <Id>Automator-8D2B83ABC3A54C9</Id>
     </Compile>
     <Compile Include="System\Functions\F_CompareIntegerValues.os">
       <SubType>Component</SubType>
@@ -170,6 +174,18 @@
     <Compile Include="System\Functions\F_ContainsStringValue.os">
       <SubType>Component</SubType>
       <Id>Automator-8D2B4739DE6E7BC</Id>
+    </Compile>
+    <Compile Include="System\Functions\F_ConvertStringToDouble.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B83855E3CFF3</Id>
+    </Compile>
+    <Compile Include="System\Functions\F_ConvertStringToFloat.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B838E17E01D1</Id>
+    </Compile>
+    <Compile Include="System\Functions\F_ConvertStringToInteger.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B83927771D36</Id>
     </Compile>
     <Compile Include="System\Functions\F_FormatEmail.os">
       <SubType>Component</SubType>
@@ -186,6 +202,10 @@
     <Compile Include="System\Functions\F_ShowMessageDialog.os">
       <SubType>Component</SubType>
       <Id>Automator-8D2B4561632DBB2</Id>
+    </Compile>
+    <Compile Include="System\Procedures\Private\_P_CompareDoubleValues.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B83C192DB5CE</Id>
     </Compile>
     <Compile Include="System\Procedures\Private\_P_CompareFloatValues.os">
       <SubType>Component</SubType>
@@ -206,6 +226,10 @@
     <Compile Include="System\Procedures\Private\_P_FormatEmail.os">
       <SubType>Component</SubType>
       <Id>Automator-8D2B47DAEC1EB42</Id>
+    </Compile>
+    <Compile Include="System\Procedures\Public\P_CompareDoubleValues.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B83D25CA170A</Id>
     </Compile>
     <Compile Include="System\Procedures\Public\P_CompareFloatValues.os">
       <SubType>Component</SubType>

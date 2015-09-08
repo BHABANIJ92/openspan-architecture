@@ -19,7 +19,7 @@
     <OpenSpan.Automation.Automator Name="F_CompareIntegerValues" Id="Automator-8D2B5115AF9DD91">
       <AutomationDocument>
         <Name Value="" />
-        <Size Value="5005, 5010" />
+        <Size Value="5011, 5010" />
         <Objects>
           <ConnectionBlock>
             <ConnectableUniqueId Value="Automator-8D2B5115AF9DD91\EntryPoint-8D2B511657614C7" />
@@ -35,8 +35,8 @@
           </ConnectionBlock>
           <ConnectionBlock type="OpenSpan.Automation.Design.ConnectionBlocks.MultiExitPointBlock">
             <ConnectableUniqueId Value="Automator-8D2B5115AF9DD91\ExitPoint-8D2B511D478E834" />
-            <Left Value="420" />
-            <Top Value="280" />
+            <Left Value="400" />
+            <Top Value="300" />
             <PartID Value="11" />
             <Title Value="Exit" />
             <EventName Value="" />
@@ -88,9 +88,9 @@
               <Point value="334, 303" />
               <Point value="344, 303" />
               <Point value="345, 303" />
-              <Point value="345, 299" />
-              <Point value="413, 299" />
-              <Point value="423, 299" />
+              <Point value="345, 319" />
+              <Point value="393, 319" />
+              <Point value="403, 319" />
             </LinkPoints>
           </Link>
           <Link PartID="13" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
@@ -100,10 +100,10 @@
               <Point value="306, 322" />
               <Point value="306, 332" />
               <Point value="306, 335" />
-              <Point value="345, 335" />
-              <Point value="345, 328" />
-              <Point value="413, 328" />
-              <Point value="423, 328" />
+              <Point value="306, 335" />
+              <Point value="306, 348" />
+              <Point value="393, 348" />
+              <Point value="403, 348" />
             </LinkPoints>
           </Link>
         </Links>
@@ -112,7 +112,7 @@
         </Comments>
         <SubGraphs />
       </AutomationDocument>
-      <DocumentScale Value="0.9025" />
+      <DocumentScale Value="0.990037441" />
       <Content Name="DynamicMembers">
         <Items>
           <OpenSpan.DynamicMembers.DynamicMethodInfo dynamicType="Method" name="_EntryPointExecute" aliasName="Execute" visibility="DefaultOn" source="" blockTypeName="OpenSpan.Automation.Design.ConnectionBlocks.EntryPointExecuteBlock" returnType="System.Boolean">
@@ -170,7 +170,7 @@
         </Items>
       </Content>
     </OpenSpan.Automation.EntryPoint>
-    <OpenSpan.Script.Expression.BooleanExpression Name="booleanExpression1" Id="BooleanExpression-8D2B511C0020A7A">
+    <OpenSpan.Script.Expression.BooleanExpression Name="booleanExpression" Id="BooleanExpression-8D2B511C0020A7A">
       <Expression Value="x == y" />
       <Scope Value="Local" Extended="True" />
       <Valid Value="True" />
@@ -196,7 +196,7 @@
       </Content>
     </OpenSpan.Script.Expression.BooleanExpression>
     <OpenSpan.Automation.ConnectableMethod Name="connectableMethod1" Id="ConnectableMethod-8D2B511C009F9EE">
-      <ComponentName Value="booleanExpression1" />
+      <ComponentName Value="booleanExpression" />
       <DisplayName Value="Evaluate" />
       <ExceptionsHandled Value="False" />
       <InstanceTypeName Value="OpenSpan.Script.Expression.BooleanExpression" />
