@@ -9,12 +9,12 @@ This repository contains a sample project of an OpenSpan Architecture Model that
 - F_CompareDoubleValues   (Double value1, Double value2) **[P]**
 - F_CompareFloatValues    (Float value1, Float value2) **[P]**
 - F_CompareIntegerValues  (Int value1, Int value2) **[P]**
-- F_CompareStringValues **[P]**
-- F_ContainsStringValue **[P]**
-- F_ConvertStringToDouble **[P]**
-- F_ConvertStringToFloat **[P]**
-- F_ConvertStringToInteger **[P]**
-- F_FormatEmail **[P]**
-- F_ShowMessageDialog
-- F_WriteDiagnosticLogByType
-- F_WriteEventLogByType
+- F_CompareStringValues (String value1, String value2) **[P]**
+- F_ContainsStringValue (String baseString, String seekString) **[P]**
+- F_ConvertStringToDouble (String value) **[P]**
+- F_ConvertStringToFloat (String value) **[P]**
+- F_ConvertStringToInteger (String value) **[P]**
+- F_FormatEmail (String desiredEmail, String domain) **[P]**
+- F_ShowMessageDialog (String description, String message)
+- F_WriteDiagnosticLogByType (String description, String message)
+- F_WriteEventLogByType (String description, String message)
