@@ -20,8 +20,8 @@
         <Objects>
           <ConnectionBlock>
             <ConnectableUniqueId Value="Automator-8D2B480E94EB6F1\EntryPoint-8D2B48113CD29C1" />
-            <Left Value="43" />
-            <Top Value="202" />
+            <Left Value="40" />
+            <Top Value="200" />
             <PartID Value="2" />
           </ConnectionBlock>
           <ConnectionBlock>
@@ -51,8 +51,8 @@
           </ConnectionBlock>
           <ConnectionBlock type="OpenSpan.Automation.Design.ConnectionBlocks.MultiExitPointBlock">
             <ConnectableUniqueId Value="Automator-8D2B480E94EB6F1\ExitPoint-8D2B481482AD087" />
-            <Left Value="526" />
-            <Top Value="344" />
+            <Left Value="529" />
+            <Top Value="346" />
             <PartID Value="15" />
             <Title Value="Exit" />
             <EventName Value="" />
@@ -113,9 +113,9 @@
               <Point value="399, 345" />
               <Point value="409, 345" />
               <Point value="415, 345" />
-              <Point value="415, 392" />
-              <Point value="519, 392" />
-              <Point value="529, 392" />
+              <Point value="415, 394" />
+              <Point value="522, 394" />
+              <Point value="532, 394" />
             </LinkPoints>
           </Link>
           <Link PartID="17" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
@@ -125,9 +125,9 @@
               <Point value="399, 360" />
               <Point value="409, 360" />
               <Point value="415, 360" />
-              <Point value="415, 409" />
-              <Point value="519, 409" />
-              <Point value="529, 409" />
+              <Point value="415, 411" />
+              <Point value="522, 411" />
+              <Point value="532, 411" />
             </LinkPoints>
           </Link>
           <Link PartID="20" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
@@ -164,10 +164,10 @@
             <LinkPoints>
               <Point value="399, 425" />
               <Point value="409, 425" />
-              <Point value="464, 425" />
-              <Point value="464, 363" />
-              <Point value="519, 363" />
-              <Point value="529, 363" />
+              <Point value="465, 425" />
+              <Point value="465, 365" />
+              <Point value="522, 365" />
+              <Point value="532, 365" />
             </LinkPoints>
           </Link>
         </Links>

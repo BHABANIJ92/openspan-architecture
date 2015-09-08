@@ -22,13 +22,13 @@
           <ConnectionBlock>
             <ConnectableUniqueId Value="Automator-8D2B838E17E01D1\EntryPoint-8D2B838E64B0B0B" />
             <Left Value="40" />
-            <Top Value="200" />
+            <Top Value="180" />
             <PartID Value="1" />
           </ConnectionBlock>
           <ConnectionBlock type="OpenSpan.Automation.Design.ConnectionBlocks.MultiExitPointBlock">
             <ConnectableUniqueId Value="Automator-8D2B838E17E01D1\ExitPoint-8D2B838E64FED4B" />
-            <Left Value="420" />
-            <Top Value="200" />
+            <Left Value="400" />
+            <Top Value="180" />
             <PartID Value="3" />
             <Title Value="Exit" />
             <EventName Value="" />
@@ -38,7 +38,7 @@
             <ConnectableUniqueId Value="Automator-8D2B838E17E01D1\ConnectableMethod-8D2B8390ADCA803" />
             <PartID Value="9" />
             <Left Value="220" />
-            <Top Value="200" />
+            <Top Value="180" />
             <Collapsed Value="False" />
             <WillExecute Value="True" />
             <InstanceName Value="systemScript" />
@@ -50,53 +50,53 @@
             <From PartID="1" PortName="Complete" PortType="Event" ConnectableId="Automator-8D2B838E17E01D1\EntryPoint-8D2B838E64B0B0B" MemberComponentId="Automator-8D2B838E17E01D1\EntryPoint-8D2B838E64B0B0B" />
             <To PartID="9" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D2B838E17E01D1\ConnectableMethod-8D2B8390ADCA803" MemberComponentId="Automator-8D2B838E17E01D1\ConnectableMethod-8D2B8390ADCA803" />
             <LinkPoints>
-              <Point value="156, 219" />
-              <Point value="166, 219" />
-              <Point value="190, 219" />
-              <Point value="190, 225" />
-              <Point value="213, 225" />
-              <Point value="223, 225" />
+              <Point value="156, 199" />
+              <Point value="166, 199" />
+              <Point value="166, 199" />
+              <Point value="166, 205" />
+              <Point value="213, 205" />
+              <Point value="223, 205" />
             </LinkPoints>
           </Link>
           <Link PartID="11" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
             <From PartID="1" PortName="param1" PortType="Property" ConnectableId="Automator-8D2B838E17E01D1\EntryPoint-8D2B838E64B0B0B" MemberComponentId="EMPTY" />
             <To PartID="9" PortName="str" PortType="Property" ConnectableId="Automator-8D2B838E17E01D1\ConnectableMethod-8D2B8390ADCA803" MemberComponentId="Automator-8D2B838E17E01D1\ConnectableMethod-8D2B8390ADCA803" />
             <LinkPoints>
-              <Point value="156, 248" />
-              <Point value="166, 248" />
-              <Point value="190, 248" />
-              <Point value="190, 240" />
-              <Point value="213, 240" />
-              <Point value="223, 240" />
+              <Point value="156, 228" />
+              <Point value="166, 228" />
+              <Point value="166, 228" />
+              <Point value="166, 220" />
+              <Point value="213, 220" />
+              <Point value="223, 220" />
             </LinkPoints>
           </Link>
           <Link PartID="12" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
             <From PartID="9" PortName="Result" PortType="Property" ConnectableId="Automator-8D2B838E17E01D1\ConnectableMethod-8D2B8390ADCA803" MemberComponentId="Automator-8D2B838E17E01D1\ConnectableMethod-8D2B8390ADCA803" />
             <To PartID="3" PortName="Result" PortType="Property" ConnectableId="Automator-8D2B838E17E01D1\ExitPoint-8D2B838E64FED4B" MemberComponentId="EMPTY" />
             <LinkPoints>
-              <Point value="336, 255" />
-              <Point value="346, 255" />
-              <Point value="380, 255" />
-              <Point value="380, 248" />
-              <Point value="413, 248" />
-              <Point value="423, 248" />
+              <Point value="336, 235" />
+              <Point value="346, 235" />
+              <Point value="346, 235" />
+              <Point value="346, 228" />
+              <Point value="393, 228" />
+              <Point value="403, 228" />
             </LinkPoints>
           </Link>
           <Link PartID="13" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
             <From PartID="9" PortName="Complete" PortType="Event" ConnectableId="Automator-8D2B838E17E01D1\ConnectableMethod-8D2B8390ADCA803" MemberComponentId="Automator-8D2B838E17E01D1\ConnectableMethod-8D2B8390ADCA803" />
             <To PartID="3" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D2B838E17E01D1\ExitPoint-8D2B838E64FED4B" MemberComponentId="Automator-8D2B838E17E01D1\ExitPoint-8D2B838E64FED4B" />
             <LinkPoints>
-              <Point value="336, 225" />
-              <Point value="346, 225" />
-              <Point value="380, 225" />
-              <Point value="380, 219" />
-              <Point value="413, 219" />
-              <Point value="423, 219" />
+              <Point value="336, 205" />
+              <Point value="346, 205" />
+              <Point value="346, 205" />
+              <Point value="346, 199" />
+              <Point value="393, 199" />
+              <Point value="403, 199" />
             </LinkPoints>
           </Link>
         </Links>
         <Comments>
-          <Comment Text="Automation: F_ConvertStringToFloat&#xD;&#xA;&#xD;&#xA;Created By: Vandré Leal Cândido&#xD;&#xA;Created On: 09/08/2015&#xD;&#xA;Modified By:&#xD;&#xA;Modified On:&#xD;&#xA;&#xD;&#xA;Description: This automation converts a given string to float." PartID="8" Position="36, 38" UnanchoredOffset="-30, -30" BaseWidth="30" />
+          <Comment Text="Automation: F_ConvertStringToFloat&#xD;&#xA;Created By: Vandré Leal Cândido&#xD;&#xA;Created On: 09/08/2015&#xD;&#xA;Modified By:&#xD;&#xA;Modified On:&#xD;&#xA;&#xD;&#xA;Description: This automation converts a given string to float." PartID="8" Position="36, 38" UnanchoredOffset="-30, -30" BaseWidth="30" />
         </Comments>
         <SubGraphs />
       </AutomationDocument>

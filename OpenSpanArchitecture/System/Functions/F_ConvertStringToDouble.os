@@ -22,7 +22,7 @@
           <ConnectionBlock>
             <ConnectableUniqueId Value="Automator-8D2B83855E3CFF3\EntryPoint-8D2B8386B50C3E9" />
             <Left Value="40" />
-            <Top Value="200" />
+            <Top Value="180" />
             <PartID Value="2" />
           </ConnectionBlock>
           <ConnectionBlock>
@@ -30,7 +30,7 @@
             <ConnectableUniqueId Value="Automator-8D2B83855E3CFF3\ConnectableMethod-8D2B83890C52B5D" />
             <PartID Value="3" />
             <Left Value="220" />
-            <Top Value="200" />
+            <Top Value="180" />
             <Collapsed Value="False" />
             <WillExecute Value="True" />
             <InstanceName Value="systemScript" />
@@ -38,8 +38,8 @@
           </ConnectionBlock>
           <ConnectionBlock type="OpenSpan.Automation.Design.ConnectionBlocks.MultiExitPointBlock">
             <ConnectableUniqueId Value="Automator-8D2B83855E3CFF3\ExitPoint-8D2B838AED3943D" />
-            <Left Value="420" />
-            <Top Value="200" />
+            <Left Value="400" />
+            <Top Value="180" />
             <PartID Value="6" />
             <Title Value="Exit" />
             <EventName Value="" />
@@ -50,53 +50,53 @@
             <From PartID="2" PortName="param1" PortType="Property" ConnectableId="Automator-8D2B83855E3CFF3\EntryPoint-8D2B8386B50C3E9" MemberComponentId="EMPTY" />
             <To PartID="3" PortName="str" PortType="Property" ConnectableId="Automator-8D2B83855E3CFF3\ConnectableMethod-8D2B83890C52B5D" MemberComponentId="Automator-8D2B83855E3CFF3\ConnectableMethod-8D2B83890C52B5D" />
             <LinkPoints>
-              <Point value="156, 248" />
-              <Point value="166, 248" />
-              <Point value="166, 248" />
-              <Point value="166, 240" />
-              <Point value="213, 240" />
-              <Point value="223, 240" />
+              <Point value="156, 228" />
+              <Point value="166, 228" />
+              <Point value="166, 228" />
+              <Point value="166, 220" />
+              <Point value="213, 220" />
+              <Point value="223, 220" />
             </LinkPoints>
           </Link>
           <Link PartID="5" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
             <From PartID="2" PortName="Complete" PortType="Event" ConnectableId="Automator-8D2B83855E3CFF3\EntryPoint-8D2B8386B50C3E9" MemberComponentId="Automator-8D2B83855E3CFF3\EntryPoint-8D2B8386B50C3E9" />
             <To PartID="3" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D2B83855E3CFF3\ConnectableMethod-8D2B83890C52B5D" MemberComponentId="Automator-8D2B83855E3CFF3\ConnectableMethod-8D2B83890C52B5D" />
             <LinkPoints>
-              <Point value="156, 219" />
-              <Point value="166, 219" />
-              <Point value="166, 219" />
-              <Point value="166, 225" />
-              <Point value="213, 225" />
-              <Point value="223, 225" />
+              <Point value="156, 199" />
+              <Point value="166, 199" />
+              <Point value="166, 199" />
+              <Point value="166, 205" />
+              <Point value="213, 205" />
+              <Point value="223, 205" />
             </LinkPoints>
           </Link>
           <Link PartID="7" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
             <From PartID="3" PortName="Result" PortType="Property" ConnectableId="Automator-8D2B83855E3CFF3\ConnectableMethod-8D2B83890C52B5D" MemberComponentId="Automator-8D2B83855E3CFF3\ConnectableMethod-8D2B83890C52B5D" />
             <To PartID="6" PortName="Result" PortType="Property" ConnectableId="Automator-8D2B83855E3CFF3\ExitPoint-8D2B838AED3943D" MemberComponentId="EMPTY" />
             <LinkPoints>
-              <Point value="349, 255" />
-              <Point value="359, 255" />
-              <Point value="365, 255" />
-              <Point value="365, 248" />
-              <Point value="413, 248" />
-              <Point value="423, 248" />
+              <Point value="349, 235" />
+              <Point value="359, 235" />
+              <Point value="365, 235" />
+              <Point value="365, 228" />
+              <Point value="393, 228" />
+              <Point value="403, 228" />
             </LinkPoints>
           </Link>
           <Link PartID="8" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
             <From PartID="3" PortName="Complete" PortType="Event" ConnectableId="Automator-8D2B83855E3CFF3\ConnectableMethod-8D2B83890C52B5D" MemberComponentId="Automator-8D2B83855E3CFF3\ConnectableMethod-8D2B83890C52B5D" />
             <To PartID="6" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D2B83855E3CFF3\ExitPoint-8D2B838AED3943D" MemberComponentId="Automator-8D2B83855E3CFF3\ExitPoint-8D2B838AED3943D" />
             <LinkPoints>
-              <Point value="349, 225" />
-              <Point value="359, 225" />
-              <Point value="365, 225" />
-              <Point value="365, 219" />
-              <Point value="413, 219" />
-              <Point value="423, 219" />
+              <Point value="349, 205" />
+              <Point value="359, 205" />
+              <Point value="365, 205" />
+              <Point value="365, 199" />
+              <Point value="393, 199" />
+              <Point value="403, 199" />
             </LinkPoints>
           </Link>
         </Links>
         <Comments>
-          <Comment Text="Automation: F_ConvertStringToDouble&#xD;&#xA;&#xD;&#xA;Created By: Vandré Leal Cândido&#xD;&#xA;Created On: 09/08/2015&#xD;&#xA;Modified By:&#xD;&#xA;Modified On:&#xD;&#xA;&#xD;&#xA;Description: This automation converts a given string to double." PartID="1" Position="36, 38" UnanchoredOffset="-30, -30" BaseWidth="30" />
+          <Comment Text="Automation: F_ConvertStringToDouble&#xD;&#xA;Created By: Vandré Leal Cândido&#xD;&#xA;Created On: 09/08/2015&#xD;&#xA;Modified By:&#xD;&#xA;Modified On:&#xD;&#xA;&#xD;&#xA;Description: This automation converts a given string to double." PartID="1" Position="36, 38" UnanchoredOffset="-30, -30" BaseWidth="30" />
         </Comments>
         <SubGraphs />
       </AutomationDocument>
@@ -110,8 +110,8 @@
     </OpenSpan.Automation.Automator>
     <OpenSpan.Automation.EntryPoint Name="entryPoint1" Id="EntryPoint-8D2B8386B50C3E9">
       <AliasName Value="Execute" />
-      <ComponentName Value="&lt;No Instance&gt;" />
-      <DisplayName Value="" />
+      <ComponentName Value="Execute" />
+      <DisplayName Value="Execute" />
       <ExceptionsHandled Value="False" />
       <InstanceTypeName Value="OpenSpan.Automation.EntryPoint" />
       <InstanceUniqueId Value="Automator-8D2B83855E3CFF3\EntryPoint-8D2B8386B50C3E9" />

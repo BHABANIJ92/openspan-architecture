@@ -223,6 +223,18 @@
       <SubType>Component</SubType>
       <Id>Automator-8D2B4856CF7E38D</Id>
     </Compile>
+    <Compile Include="System\Procedures\Private\_P_ConvertStringToDouble.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B83F99CAED57</Id>
+    </Compile>
+    <Compile Include="System\Procedures\Private\_P_ConvertStringToFloat.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B840BB779709</Id>
+    </Compile>
+    <Compile Include="System\Procedures\Private\_P_ConvertStringToInteger.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B84196D9F020</Id>
+    </Compile>
     <Compile Include="System\Procedures\Private\_P_FormatEmail.os">
       <SubType>Component</SubType>
       <Id>Automator-8D2B47DAEC1EB42</Id>
@@ -246,6 +258,18 @@
     <Compile Include="System\Procedures\Public\P_ContainsStringValue.os">
       <SubType>Component</SubType>
       <Id>Automator-8D2B485797A403D</Id>
+    </Compile>
+    <Compile Include="System\Procedures\Public\P_ConvertStringToDouble.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B84225B80739</Id>
+    </Compile>
+    <Compile Include="System\Procedures\Public\P_ConvertStringToFloat.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B8429BC5D4A5</Id>
+    </Compile>
+    <Compile Include="System\Procedures\Public\P_ConvertStringToInteger.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B8431F16AC97</Id>
     </Compile>
     <Compile Include="System\Procedures\Public\P_FormatEmail.os">
       <SubType>Component</SubType>
