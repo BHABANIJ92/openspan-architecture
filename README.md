@@ -6,9 +6,9 @@ This repository contains a sample project of an OpenSpan Architecture Model that
 
 **[P]** = Procedures available
 
-- F_CompareDoubleValues **[P]**
-- F_CompareFloatValues **[P]**
-- F_CompareIntegerValues **[P]**
+- F_CompareDoubleValues   (Double value1, Double value2) **[P]**
+- F_CompareFloatValues    (Float value1, Float value2) **[P]**
+- F_CompareIntegerValues  (Int value1, Int value2) **[P]**
 - F_CompareStringValues **[P]**
 - F_ContainsStringValue **[P]**
 - F_ConvertStringToDouble **[P]**
