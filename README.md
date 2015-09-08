@@ -1,6 +1,6 @@
-# OpenSpan Architecture Model and Useful Functions
+# OpenSpan Architecture Model and Functions
 
-This repository contains a sample project of an OpenSpan Architecture Model that follows the best practices as well as some useful general functions.
+This repository contains a sample project of an OpenSpan Architecture Model that follows the best practices as well as some useful functions.
 
 ## List of functions available:
 
