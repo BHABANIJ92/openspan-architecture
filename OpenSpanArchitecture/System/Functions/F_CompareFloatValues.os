@@ -23,8 +23,8 @@
         <Objects>
           <ConnectionBlock>
             <ConnectableUniqueId Value="Automator-8D2B83ABC3A54C9\EntryPoint-8D2B83ACE564FB7" />
-            <Left Value="40" />
-            <Top Value="200" />
+            <Left Value="43" />
+            <Top Value="202" />
             <PartID Value="3" />
           </ConnectionBlock>
           <ConnectionBlock>
@@ -35,8 +35,8 @@
           </ConnectionBlock>
           <ConnectionBlock type="OpenSpan.Automation.Design.ConnectionBlocks.MultiExitPointBlock">
             <ConnectableUniqueId Value="Automator-8D2B83ABC3A54C9\ExitPoint-8D2B83AE338D6A7" />
-            <Left Value="400" />
-            <Top Value="300" />
+            <Left Value="403" />
+            <Top Value="302" />
             <PartID Value="8" />
             <Title Value="Exit" />
             <EventName Value="" />
@@ -47,10 +47,12 @@
             <From PartID="3" PortName="Complete" PortType="Event" ConnectableId="Automator-8D2B83ABC3A54C9\EntryPoint-8D2B83ACE564FB7" MemberComponentId="Automator-8D2B83ABC3A54C9\EntryPoint-8D2B83ACE564FB7" />
             <To PartID="4" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D2B83ABC3A54C9\ConnectableMethod-8D2B83AD8B7EF47" MemberComponentId="Automator-8D2B83ABC3A54C9\ConnectableMethod-8D2B83AD8B7EF47" />
             <LinkPoints>
-              <Point value="156, 219" />
-              <Point value="166, 219" />
-              <Point value="166, 219" />
-              <Point value="166, 303" />
+              <Point value="159, 221" />
+              <Point value="169, 221" />
+              <Point value="165, 221" />
+              <Point value="165, 221" />
+              <Point value="175, 221" />
+              <Point value="175, 303" />
               <Point value="213, 303" />
               <Point value="223, 303" />
             </LinkPoints>
@@ -59,11 +61,11 @@
             <From PartID="3" PortName="param1" PortType="Property" ConnectableId="Automator-8D2B83ABC3A54C9\EntryPoint-8D2B83ACE564FB7" MemberComponentId="EMPTY" />
             <To PartID="4" PortName="x" PortType="Property" ConnectableId="Automator-8D2B83ABC3A54C9\ConnectableMethod-8D2B83AD8B7EF47" MemberComponentId="Automator-8D2B83ABC3A54C9\ConnectableMethod-8D2B83AD8B7EF47" />
             <LinkPoints>
-              <Point value="156, 248" />
-              <Point value="166, 248" />
-              <Point value="165, 248" />
-              <Point value="165, 248" />
-              <Point value="239, 248" />
+              <Point value="159, 250" />
+              <Point value="169, 250" />
+              <Point value="165, 250" />
+              <Point value="165, 250" />
+              <Point value="239, 250" />
               <Point value="239, 273" />
               <Point value="239, 283" />
             </LinkPoints>
@@ -72,11 +74,11 @@
             <From PartID="3" PortName="param2" PortType="Property" ConnectableId="Automator-8D2B83ABC3A54C9\EntryPoint-8D2B83ACE564FB7" MemberComponentId="EMPTY" />
             <To PartID="4" PortName="y" PortType="Property" ConnectableId="Automator-8D2B83ABC3A54C9\ConnectableMethod-8D2B83AD8B7EF47" MemberComponentId="Automator-8D2B83ABC3A54C9\ConnectableMethod-8D2B83AD8B7EF47" />
             <LinkPoints>
-              <Point value="156, 265" />
-              <Point value="166, 265" />
-              <Point value="165, 265" />
-              <Point value="165, 265" />
-              <Point value="268, 265" />
+              <Point value="159, 267" />
+              <Point value="169, 267" />
+              <Point value="165, 267" />
+              <Point value="165, 267" />
+              <Point value="268, 267" />
               <Point value="268, 273" />
               <Point value="268, 283" />
             </LinkPoints>
@@ -87,10 +89,10 @@
             <LinkPoints>
               <Point value="334, 303" />
               <Point value="344, 303" />
-              <Point value="345, 303" />
-              <Point value="345, 319" />
-              <Point value="393, 319" />
-              <Point value="403, 319" />
+              <Point value="370, 303" />
+              <Point value="370, 321" />
+              <Point value="396, 321" />
+              <Point value="406, 321" />
             </LinkPoints>
           </Link>
           <Link PartID="10" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
@@ -99,11 +101,10 @@
             <LinkPoints>
               <Point value="306, 322" />
               <Point value="306, 332" />
-              <Point value="306, 335" />
-              <Point value="306, 335" />
-              <Point value="306, 348" />
-              <Point value="393, 348" />
-              <Point value="403, 348" />
+              <Point value="306, 350" />
+              <Point value="351, 350" />
+              <Point value="396, 350" />
+              <Point value="406, 350" />
             </LinkPoints>
           </Link>
         </Links>
@@ -115,8 +116,8 @@
       <Content Name="DynamicMembers">
         <Items>
           <OpenSpan.DynamicMembers.DynamicMethodInfo dynamicType="Method" name="_EntryPointExecute" aliasName="Execute" visibility="DefaultOn" source="" blockTypeName="OpenSpan.Automation.Design.ConnectionBlocks.EntryPointExecuteBlock" returnType="System.Boolean">
-            <param name="param1" aliasName="float1" paramType="System.Single" isIn="True" isOut="False" position="0" />
-            <param name="param2" aliasName="float2" paramType="System.Single" isIn="True" isOut="False" position="1" />
+            <param name="param1" aliasName="value1" paramType="System.Single" isIn="True" isOut="False" position="0" />
+            <param name="param2" aliasName="value2" paramType="System.Single" isIn="True" isOut="False" position="1" />
           </OpenSpan.DynamicMembers.DynamicMethodInfo>
         </Items>
       </Content>
@@ -136,7 +137,7 @@
         <Capacity Value="4" />
         <Items>
           <OpenSpan.Automation.HiddenTypeProxy Name="hiddenTypeProxy1" Id="HiddenTypeProxy-8D2B83ACED28497">
-            <AliasName Value="float1" />
+            <AliasName Value="value1" />
             <Parent Value="ComponentReference" Name="entryPoint1" />
             <ProxiedTypeName Value="System.Single, mscorlib" />
             <Scope Value="Local" Extended="True" />
@@ -148,7 +149,7 @@
             </Content>
           </OpenSpan.Automation.HiddenTypeProxy>
           <OpenSpan.Automation.HiddenTypeProxy Name="hiddenTypeProxy2" Id="HiddenTypeProxy-8D2B83ACF3F2917">
-            <AliasName Value="float2" />
+            <AliasName Value="value2" />
             <Parent Value="ComponentReference" Name="entryPoint1" />
             <ProxiedTypeName Value="System.Single, mscorlib" />
             <Scope Value="Local" Extended="True" />
@@ -164,8 +165,8 @@
       <Content Name="DynamicMembers">
         <Items>
           <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="Result" canRead="True" canWrite="True" type="System.Boolean" aliasName="Result" shouldSerialize="False" visibility="AlwaysHidden" source="" blockTypeName="" />
-          <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="param1" canRead="False" canWrite="True" type="System.Single" aliasName="float1" shouldSerialize="False" visibility="AlwaysHidden" source="" blockTypeName="" />
-          <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="param2" canRead="False" canWrite="True" type="System.Single" aliasName="float2" shouldSerialize="False" visibility="AlwaysHidden" source="" blockTypeName="" />
+          <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="param1" canRead="False" canWrite="True" type="System.Single" aliasName="value1" shouldSerialize="False" visibility="AlwaysHidden" source="" blockTypeName="" />
+          <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="param2" canRead="False" canWrite="True" type="System.Single" aliasName="value2" shouldSerialize="False" visibility="AlwaysHidden" source="" blockTypeName="" />
         </Items>
       </Content>
     </OpenSpan.Automation.EntryPoint>

@@ -1,8 +1,0 @@
-<Cache>
-  <BuildReferences>
-    <BuildReference value="RuntimeConfig.xml" />
-    <BuildReference value="rscoree.dll" />
-    <BuildReference value="rscoree-x64.dll" />
-    <BuildReference value="OpenSpan.Licensing.dll" />
-  </BuildReferences>
-</Cache>
