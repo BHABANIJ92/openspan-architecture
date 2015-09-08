@@ -1,3 +1,14 @@
 C:\Users\vandre_leal\Documents\OpenSpan Studio for VS 2010\Projects\OpenSpanArchitecture\OpenSpanArchitecture\obj\Debug\OpenSpanArchitecture.osprojResolveAssemblyReference.cache
 C:\Users\vandre_leal\Documents\OpenSpan Studio for VS 2010\Projects\OpenSpanArchitecture\OpenSpanArchitecture\obj\Debug\.resources
 C:\Users\vandre_leal\Documents\OpenSpan Studio for VS 2010\Projects\OpenSpanArchitecture\OpenSpanArchitecture\obj\Debug\OpenSpanArchitecture.osproj.GenerateResource.Cache
+C:\Users\vandre_leal\Documents\GitHub\OpenSpanArchitecture\OpenSpanArchitecture\bin\Debug\RuntimeConfig.xml
+C:\Users\vandre_leal\Documents\GitHub\OpenSpanArchitecture\OpenSpanArchitecture\bin\Debug\rscoree.dll
+C:\Users\vandre_leal\Documents\GitHub\OpenSpanArchitecture\OpenSpanArchitecture\bin\Debug\rscoree-x64.dll
+C:\Users\vandre_leal\Documents\GitHub\OpenSpanArchitecture\OpenSpanArchitecture\bin\Debug\OpenSpan.Licensing.dll
+C:\Users\vandre_leal\Documents\GitHub\OpenSpanArchitecture\OpenSpanArchitecture\bin\Debug\OpenSpanArchitecture.dll
+C:\Users\vandre_leal\Documents\GitHub\OpenSpanArchitecture\OpenSpanArchitecture\bin\Debug\OpenSpanArchitecture.pdb
+C:\Users\vandre_leal\Documents\GitHub\OpenSpanArchitecture\OpenSpanArchitecture\obj\Debug\OpenSpanArchitecture.osprojResolveAssemblyReference.cache
+C:\Users\vandre_leal\Documents\GitHub\OpenSpanArchitecture\OpenSpanArchitecture\obj\Debug\.resources
+C:\Users\vandre_leal\Documents\GitHub\OpenSpanArchitecture\OpenSpanArchitecture\obj\Debug\OpenSpanArchitecture.osproj.GenerateResource.Cache
+C:\Users\vandre_leal\Documents\GitHub\OpenSpanArchitecture\OpenSpanArchitecture\obj\Debug\OpenSpanArchitecture.dll
+C:\Users\vandre_leal\Documents\GitHub\OpenSpanArchitecture\OpenSpanArchitecture\obj\Debug\OpenSpanArchitecture.pdb

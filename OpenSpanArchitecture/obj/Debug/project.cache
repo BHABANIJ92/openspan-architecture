@@ -1,8 +1,99 @@
 <Cache>
+  <Project configuration="" />
   <DesignComponents>
     <DesignComponent id="GlobalContainer-8D2B4465E7223A6" className="GlobalContainer" type="GlobalContainer" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D2B4466735F1B6" className="Main" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="WebAdapter-8D2B44654214CF6" className="WebAdapter" type="Adapter" isPublic="True" screenShots="" />
     <DesignComponent id="GlobalContainer-8D2B44704EFE786" className="WebAdapterGlobalContainer" type="GlobalContainer" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D2B83B0A196237" className="F_CompareDoubleValues" type="Automation" isPublic="True" screenShots="">
+      <DynamicClasses>
+        <DynamicClass id="BooleanExpression-8D2B83B3CAA0657" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+          </References>
+        </DynamicClass>
+      </DynamicClasses>
+    </DesignComponent>
+    <DesignComponent id="Automator-8D2B83ABC3A54C9" className="F_CompareFloatValues" type="Automation" isPublic="True" screenShots="">
+      <DynamicClasses>
+        <DynamicClass id="BooleanExpression-8D2B83AD8AD8F07" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+          </References>
+        </DynamicClass>
+      </DynamicClasses>
+    </DesignComponent>
+    <DesignComponent id="Automator-8D2B5115AF9DD91" className="F_CompareIntegerValues" type="Automation" isPublic="True" screenShots="">
+      <DynamicClasses>
+        <DynamicClass id="BooleanExpression-8D2B511C0020A7A" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+          </References>
+        </DynamicClass>
+      </DynamicClasses>
+    </DesignComponent>
+    <DesignComponent id="Automator-8D2B46B48DE9CDD" className="F_CompareStringValues" type="Automation" isPublic="True" screenShots="">
+      <DynamicClasses>
+        <DynamicClass id="BooleanExpression-8D2B46CDFF0F026" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+          </References>
+        </DynamicClass>
+      </DynamicClasses>
+    </DesignComponent>
+    <DesignComponent id="Automator-8D2B4739DE6E7BC" className="F_ContainsStringValue" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D2B83855E3CFF3" className="F_ConvertStringToDouble" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D2B838E17E01D1" className="F_ConvertStringToFloat" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D2B83927771D36" className="F_ConvertStringToInteger" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D2B47906712695" className="F_FormatEmail" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D2B4472D6C6FD6" className="F_WriteDiagnosticLogByType" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D2B45233C2F3A1" className="F_WriteEventLogByType" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D2B4561632DBB2" className="F_ShowMessageDialog" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D2B83C192DB5CE" className="_P_CompareDoubleValues" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D2B830790A2D38" className="_P_CompareFloatValues" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D2B5142E5ACD58" className="_P_CompareIntegerValues" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D2B5067B44ABAA" className="_P_CompareStringValues" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D2B4856CF7E38D" className="_P_ContainsStringValue" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D2B83F99CAED57" className="_P_ConvertStringToDouble" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D2B840BB779709" className="_P_ConvertStringToFloat" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D2B84196D9F020" className="_P_ConvertStringToInteger" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D2B47DAEC1EB42" className="_P_FormatEmail" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D2B83D25CA170A" className="P_CompareDoubleValues" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D2B8317400CB02" className="P_CompareFloatValues" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D2B512C37C5C52" className="P_CompareStringValues" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D2B507D8F8446B" className="P_CompareIntegerValues" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D2B485797A403D" className="P_ContainsStringValue" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D2B84225B80739" className="P_ConvertStringToDouble" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D2B8429BC5D4A5" className="P_ConvertStringToFloat" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D2B8431F16AC97" className="P_ConvertStringToInteger" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D2B480E94EB6F1" className="P_FormatEmail" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="GlobalContainer-8D2B446F28A4776" className="SystemGlobalContainer" type="GlobalContainer" isPublic="True" screenShots="">
+      <DynamicClasses>
+        <DynamicClass id="Script-8D2B836FABD74A8" fileExt=".cs">
+          <References>
+            <Reference value="System.dll" />
+            <Reference value="OpenSpan.dll" />
+            <Reference value="OpenSpan.Controls.dll" />
+            <Reference value="System.Data.dll" />
+            <Reference value="System.Design.dll" />
+            <Reference value="System.Drawing.dll" />
+            <Reference value="System.Web.dll" />
+            <Reference value="System.Windows.Forms.dll" />
+            <Reference value="System.Xml.dll" />
+            <Reference value="OpenSpan.Adapters.dll" />
+            <Reference value="OpenSpan.Adapters.Web.dll" />
+            <Reference value="OpenSpan.Adapters.Windows.dll" />
+          </References>
+        </DynamicClass>
+      </DynamicClasses>
+    </DesignComponent>
   </DesignComponents>
 </Cache>

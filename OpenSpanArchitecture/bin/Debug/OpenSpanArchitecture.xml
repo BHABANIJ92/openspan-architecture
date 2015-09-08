@@ -1,0 +1,688 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OpenSpanArchitecture</name>
+    </assembly>
+    <members>
+        <member name="T:OpenSpanArchitecture.Project.OpenSpanArchitecture">
+            <summary>
+            OpenSpan project.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture.GlobalContainer">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.GlobalContainer.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.GlobalContainer.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture.Main">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.Main.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.Main.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture.F_CompareDoubleValues">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_CompareDoubleValues.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_CompareDoubleValues.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_CompareDoubleValues.Execute(System.Double,System.Double)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture.F_CompareFloatValues">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_CompareFloatValues.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_CompareFloatValues.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_CompareFloatValues.Execute(System.Single,System.Single)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture.F_CompareIntegerValues">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_CompareIntegerValues.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_CompareIntegerValues.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_CompareIntegerValues.Execute(System.Int32,System.Int32)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture.F_CompareStringValues">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_CompareStringValues.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_CompareStringValues.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_CompareStringValues.Execute(System.String,System.String)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture.F_ContainsStringValue">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_ContainsStringValue.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_ContainsStringValue.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_ContainsStringValue.Execute(System.String,System.String)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture.F_ConvertStringToDouble">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_ConvertStringToDouble.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_ConvertStringToDouble.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_ConvertStringToDouble.Execute(System.String)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture.F_ConvertStringToFloat">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_ConvertStringToFloat.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_ConvertStringToFloat.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_ConvertStringToFloat.Execute(System.String)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture.F_ConvertStringToInteger">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_ConvertStringToInteger.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_ConvertStringToInteger.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_ConvertStringToInteger.Execute(System.String)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture.F_FormatEmail">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_FormatEmail.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_FormatEmail.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_FormatEmail.Execute(System.String,System.String,System.String@)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture.F_WriteDiagnosticLogByType">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_WriteDiagnosticLogByType.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_WriteDiagnosticLogByType.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_WriteDiagnosticLogByType.Execute(System.String,System.String)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture.F_WriteEventLogByType">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_WriteEventLogByType.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_WriteEventLogByType.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_WriteEventLogByType.Execute(System.String,System.String)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture.F_ShowMessageDialog">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_ShowMessageDialog.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_ShowMessageDialog.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_ShowMessageDialog.Execute(System.String,System.String,System.String@)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture._P_CompareDoubleValues">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_CompareDoubleValues.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_CompareDoubleValues.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_CompareDoubleValues.Execute(System.Double,System.Double)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture._P_CompareFloatValues">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_CompareFloatValues.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_CompareFloatValues.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_CompareFloatValues.Execute(System.Single,System.Single)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture._P_CompareIntegerValues">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_CompareIntegerValues.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_CompareIntegerValues.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_CompareIntegerValues.Execute(System.Int32,System.Int32)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture._P_CompareStringValues">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_CompareStringValues.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_CompareStringValues.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_CompareStringValues.Execute(System.String,System.String)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture._P_ContainsStringValue">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_ContainsStringValue.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_ContainsStringValue.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_ContainsStringValue.Execute(System.String,System.String)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture._P_ConvertStringToDouble">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_ConvertStringToDouble.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_ConvertStringToDouble.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_ConvertStringToDouble.Execute(System.String)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture._P_ConvertStringToFloat">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_ConvertStringToFloat.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_ConvertStringToFloat.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_ConvertStringToFloat.Execute(System.String)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture._P_ConvertStringToInteger">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_ConvertStringToInteger.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_ConvertStringToInteger.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_ConvertStringToInteger.Execute(System.String)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture._P_FormatEmail">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_FormatEmail.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_FormatEmail.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_FormatEmail.Execute(System.String,System.String,System.String@)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture.P_CompareDoubleValues">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_CompareDoubleValues.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_CompareDoubleValues.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_CompareDoubleValues.Execute(System.Double,System.Double)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture.P_CompareFloatValues">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_CompareFloatValues.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_CompareFloatValues.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_CompareFloatValues.Execute(System.Single,System.Single)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture.P_CompareStringValues">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_CompareStringValues.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_CompareStringValues.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_CompareStringValues.Execute(System.String,System.String)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture.P_CompareIntegerValues">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_CompareIntegerValues.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_CompareIntegerValues.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_CompareIntegerValues.Execute(System.Int32,System.Int32)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture.P_ContainsStringValue">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_ContainsStringValue.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_ContainsStringValue.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_ContainsStringValue.Execute(System.String,System.String)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture.P_ConvertStringToDouble">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_ConvertStringToDouble.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_ConvertStringToDouble.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_ConvertStringToDouble.Execute(System.String)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture.P_ConvertStringToFloat">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_ConvertStringToFloat.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_ConvertStringToFloat.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_ConvertStringToFloat.Execute(System.String)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture.P_ConvertStringToInteger">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_ConvertStringToInteger.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_ConvertStringToInteger.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_ConvertStringToInteger.Execute(System.String)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture.P_FormatEmail">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_FormatEmail.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_FormatEmail.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_FormatEmail.Execute(System.String,System.String,System.String@)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture.SystemGlobalContainer">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.SystemGlobalContainer.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.SystemGlobalContainer.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture.WebAdapter">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.WebAdapter.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.WebAdapter.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture.WebAdapterGlobalContainer">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.WebAdapterGlobalContainer.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.WebAdapterGlobalContainer.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+    </members>
+</doc>
