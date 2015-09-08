@@ -4,7 +4,7 @@ This repository contains a sample project of an OpenSpan Architecture Model that
 
 ## List of functions available:
 
-**[P] = Procedures available**
+**[P]** = Procedures available
 
 - F_CompareStringValues **[P]**
 - F_CompareIntegerValues **[P]**
