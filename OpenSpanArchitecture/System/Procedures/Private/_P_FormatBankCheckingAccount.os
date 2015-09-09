@@ -497,7 +497,7 @@
         </Comments>
         <SubGraphs />
       </AutomationDocument>
-      <DocumentScale Value="0.6983373" />
+      <DocumentScale Value="0.57" />
       <StartOnProjectStart Value="False" />
       <Content Name="DynamicMembers">
         <Items>
