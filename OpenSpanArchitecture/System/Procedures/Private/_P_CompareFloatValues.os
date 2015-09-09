@@ -20,8 +20,8 @@
         <Objects>
           <ConnectionBlock>
             <ConnectableUniqueId Value="Automator-8D2B830790A2D38\EntryPoint-8D2B830B49449DA" />
-            <Left Value="46" />
-            <Top Value="204" />
+            <Left Value="49" />
+            <Top Value="206" />
             <PartID Value="2" />
           </ConnectionBlock>
           <ConnectionBlock>
@@ -36,14 +36,14 @@
           </ConnectionBlock>
           <ConnectionBlock>
             <ConnectableUniqueId Value="Automator-8D2B830790A2D38\LabelHost-8D2B830FD1E3876" />
-            <Left Value="46" />
-            <Top Value="364" />
+            <Left Value="49" />
+            <Top Value="366" />
             <PartID Value="13" />
           </ConnectionBlock>
           <ConnectionBlock type="OpenSpan.Automation.Design.ConnectionBlocks.MultiExitPointBlock">
             <ConnectableUniqueId Value="Automator-8D2B830790A2D38\ExitPoint-8D2B83100ED9082" />
-            <Left Value="206" />
-            <Top Value="364" />
+            <Left Value="209" />
+            <Top Value="366" />
             <PartID Value="14" />
             <Title Value="Exit" />
             <EventName Value="" />
@@ -62,8 +62,8 @@
             <DisplayName Value="GoToLabel" />
             <ConnectableUniqueId Value="Automator-8D2B830790A2D38\JumpHost-8D2B831245DD482" />
             <PartID Value="19" />
-            <Left Value="600" />
-            <Top Value="194" />
+            <Left Value="1040" />
+            <Top Value="160" />
             <Collapsed Value="False" />
             <WillExecute Value="True" />
             <InstanceName Value="Jump To" />
@@ -88,7 +88,7 @@
             <ConnectableUniqueId Value="Automator-8D2B830790A2D38\JumpHost-8D2B831478A0AA2" />
             <PartID Value="26" />
             <Left Value="1040" />
-            <Top Value="314" />
+            <Top Value="320" />
             <Collapsed Value="False" />
             <WillExecute Value="True" />
             <InstanceName Value="Jump To" />
@@ -105,6 +105,30 @@
             <InstanceName Value="F_CompareFloatValues" />
             <Fittings>
               <Result Collapsed="False" ActualText="Result" />
+            </Fittings>
+            <OverriddenIds />
+          </ConnectionBlock>
+          <ConnectionBlock>
+            <DisplayName Value="CATCH" />
+            <ConnectableUniqueId Value="Automator-8D2B830790A2D38\CatchHost-8D2B8F781D72856" />
+            <PartID Value="35" />
+            <Left Value="600" />
+            <Top Value="160" />
+            <Collapsed Value="False" />
+            <WillExecute Value="True" />
+            <InstanceName Value="Try..Catch" />
+          </ConnectionBlock>
+          <ConnectionBlock type="OpenSpan.Automation.Design.ConnectionBlocks.EntryPointExecuteBlock">
+            <DisplayName Value="Execute" />
+            <ConnectableUniqueId Value="Automator-8D2B830790A2D38\ConnectableMethod-8D2B8F791344356" />
+            <PartID Value="37" />
+            <Left Value="760" />
+            <Top Value="200" />
+            <Collapsed Value="False" />
+            <WillExecute Value="True" />
+            <InstanceName Value="F_WriteDiagnosticLogByType" />
+            <Fittings>
+              <Result Collapsed="True" ActualText="Result" />
             </Fittings>
             <OverriddenIds />
           </ConnectionBlock>
@@ -126,24 +150,24 @@
             <From PartID="13" PortName="Complete" PortType="Event" ConnectableId="Automator-8D2B830790A2D38\LabelHost-8D2B830FD1E3876" MemberComponentId="Automator-8D2B830790A2D38\LabelHost-8D2B830FD1E3876" />
             <To PartID="14" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D2B830790A2D38\ExitPoint-8D2B83100ED9082" MemberComponentId="Automator-8D2B830790A2D38\ExitPoint-8D2B83100ED9082" />
             <LinkPoints>
-              <Point value="150, 383" />
-              <Point value="160, 383" />
-              <Point value="179, 383" />
-              <Point value="179, 383" />
-              <Point value="199, 383" />
-              <Point value="209, 383" />
+              <Point value="153, 385" />
+              <Point value="163, 385" />
+              <Point value="182, 385" />
+              <Point value="182, 385" />
+              <Point value="202, 385" />
+              <Point value="212, 385" />
             </LinkPoints>
           </Link>
           <Link PartID="17" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
             <From PartID="13" PortName="_param1" PortType="Property" ConnectableId="Automator-8D2B830790A2D38\LabelHost-8D2B830FD1E3876" MemberComponentId="EMPTY" />
             <To PartID="14" PortName="Result" PortType="Property" ConnectableId="Automator-8D2B830790A2D38\ExitPoint-8D2B83100ED9082" MemberComponentId="EMPTY" />
             <LinkPoints>
-              <Point value="150, 412" />
-              <Point value="160, 412" />
-              <Point value="179, 412" />
-              <Point value="179, 412" />
-              <Point value="199, 412" />
-              <Point value="209, 412" />
+              <Point value="153, 414" />
+              <Point value="163, 414" />
+              <Point value="182, 414" />
+              <Point value="182, 414" />
+              <Point value="202, 414" />
+              <Point value="212, 414" />
             </LinkPoints>
           </Link>
           <Link PartID="23" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
@@ -189,9 +213,9 @@
               <Point value="701, 345" />
               <Point value="711, 345" />
               <Point value="715, 345" />
-              <Point value="715, 334" />
-              <Point value="1033, 334" />
-              <Point value="1043, 334" />
+              <Point value="715, 336" />
+              <Point value="1033, 336" />
+              <Point value="1043, 336" />
             </LinkPoints>
           </Link>
           <Link PartID="28" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
@@ -201,9 +225,9 @@
               <Point value="979, 400" />
               <Point value="989, 400" />
               <Point value="995, 400" />
-              <Point value="995, 334" />
-              <Point value="1033, 334" />
-              <Point value="1043, 334" />
+              <Point value="995, 336" />
+              <Point value="1033, 336" />
+              <Point value="1043, 336" />
             </LinkPoints>
           </Link>
           <Link PartID="30" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
@@ -244,18 +268,6 @@
               <Point value="363, 270" />
             </LinkPoints>
           </Link>
-          <DecisionEventLink PartID="33" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
-            <From PartID="29" ParentMemberName="Result" DecisionValue="True" ConnectableId="Automator-8D2B830790A2D38\ConnectableMethod-8D2B83B9F04C905" />
-            <To PartID="19" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D2B830790A2D38\JumpHost-8D2B831245DD482" MemberComponentId="Automator-8D2B830790A2D38\JumpHost-8D2B831245DD482" />
-            <LinkPoints>
-              <Point value="542, 300" />
-              <Point value="552, 300" />
-              <Point value="555, 300" />
-              <Point value="555, 210" />
-              <Point value="593, 210" />
-              <Point value="603, 210" />
-            </LinkPoints>
-          </DecisionEventLink>
           <DecisionEventLink PartID="34" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
             <From PartID="29" ParentMemberName="Result" DecisionValue="False" ConnectableId="Automator-8D2B830790A2D38\ConnectableMethod-8D2B83B9F04C905" />
             <To PartID="18" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D2B830790A2D38\CatchHost-8D2B8311EC5F202" MemberComponentId="Automator-8D2B830790A2D38\CatchHost-8D2B8311EC5F202" />
@@ -268,13 +280,88 @@
               <Point value="603, 345" />
             </LinkPoints>
           </DecisionEventLink>
+          <DecisionEventLink PartID="36" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
+            <From PartID="29" ParentMemberName="Result" DecisionValue="True" ConnectableId="Automator-8D2B830790A2D38\ConnectableMethod-8D2B83B9F04C905" />
+            <To PartID="35" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D2B830790A2D38\CatchHost-8D2B8F781D72856" MemberComponentId="Automator-8D2B830790A2D38\CatchHost-8D2B8F781D72856" />
+            <LinkPoints>
+              <Point value="542, 300" />
+              <Point value="552, 300" />
+              <Point value="555, 300" />
+              <Point value="555, 185" />
+              <Point value="593, 185" />
+              <Point value="603, 185" />
+            </LinkPoints>
+          </DecisionEventLink>
+          <Link PartID="39" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
+            <From PartID="35" PortName="Complete" PortType="Event" ConnectableId="Automator-8D2B830790A2D38\CatchHost-8D2B8F781D72856" MemberComponentId="Automator-8D2B830790A2D38\CatchHost-8D2B8F781D72856" />
+            <To PartID="19" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D2B830790A2D38\JumpHost-8D2B831245DD482" MemberComponentId="Automator-8D2B830790A2D38\JumpHost-8D2B831245DD482" />
+            <LinkPoints>
+              <Point value="701, 185" />
+              <Point value="711, 185" />
+              <Point value="715, 185" />
+              <Point value="715, 176" />
+              <Point value="1033, 176" />
+              <Point value="1043, 176" />
+            </LinkPoints>
+          </Link>
+          <Link PartID="40" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
+            <From PartID="35" PortName="_Exception1" PortType="Event" ConnectableId="Automator-8D2B830790A2D38\CatchHost-8D2B8F781D72856" MemberComponentId="Automator-8D2B830790A2D38\CatchHost-8D2B8F781D72856" />
+            <To PartID="37" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D2B830790A2D38\ConnectableMethod-8D2B8F791344356" MemberComponentId="Automator-8D2B830790A2D38\ConnectableMethod-8D2B8F791344356" />
+            <LinkPoints>
+              <Point value="701, 200" />
+              <Point value="711, 200" />
+              <Point value="715, 200" />
+              <Point value="715, 225" />
+              <Point value="753, 225" />
+              <Point value="763, 225" />
+            </LinkPoints>
+          </Link>
+          <Link PartID="41" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
+            <From PartID="35" PortName="Exception" PortType="Property" ConnectableId="Automator-8D2B830790A2D38\CatchHost-8D2B8F781D72856" MemberComponentId="Automator-8D2B830790A2D38\CatchHost-8D2B8F781D72856" />
+            <To PartID="37" PortName="param1" PortType="Property" ConnectableId="Automator-8D2B830790A2D38\ConnectableMethod-8D2B8F791344356" MemberComponentId="Automator-8D2B830790A2D38\ConnectableMethod-8D2B8F791344356" />
+            <LinkPoints>
+              <Point value="701, 215" />
+              <Point value="711, 215" />
+              <Point value="715, 215" />
+              <Point value="715, 255" />
+              <Point value="753, 255" />
+              <Point value="763, 255" />
+            </LinkPoints>
+          </Link>
+          <Link PartID="42" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
+            <From PartID="35" PortName="Message" PortType="Property" ConnectableId="Automator-8D2B830790A2D38\CatchHost-8D2B8F781D72856" MemberComponentId="Automator-8D2B830790A2D38\CatchHost-8D2B8F781D72856" />
+            <To PartID="37" PortName="_param1" PortType="Property" ConnectableId="Automator-8D2B830790A2D38\ConnectableMethod-8D2B8F791344356" MemberComponentId="Automator-8D2B830790A2D38\ConnectableMethod-8D2B8F791344356" />
+            <LinkPoints>
+              <Point value="701, 230" />
+              <Point value="711, 230" />
+              <Point value="715, 230" />
+              <Point value="715, 270" />
+              <Point value="753, 270" />
+              <Point value="763, 270" />
+            </LinkPoints>
+          </Link>
+          <Link PartID="43" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
+            <From PartID="37" PortName="Complete" PortType="Event" ConnectableId="Automator-8D2B830790A2D38\ConnectableMethod-8D2B8F791344356" MemberComponentId="Automator-8D2B4472D6C6FD6\ExitPoint-8D2B4498C5A924F" />
+            <To PartID="19" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D2B830790A2D38\JumpHost-8D2B831245DD482" MemberComponentId="Automator-8D2B830790A2D38\JumpHost-8D2B831245DD482" />
+            <LinkPoints>
+              <Point value="979, 240" />
+              <Point value="989, 240" />
+              <Point value="995, 240" />
+              <Point value="995, 176" />
+              <Point value="1033, 176" />
+              <Point value="1043, 176" />
+            </LinkPoints>
+          </Link>
         </Links>
         <Comments>
           <Comment Text="Automation: _P_CompareFloatValues&#xD;&#xA;Created By: Vandré Leal Cândido&#xD;&#xA;Created On: 09/08/2015&#xD;&#xA;Modified By:&#xD;&#xA;Modified On:&#xD;&#xA;&#xD;&#xA;Description: This automation compares if two given float values are equals." PartID="1" Position="36, 38" UnanchoredOffset="-30, -30" BaseWidth="30" />
         </Comments>
         <SubGraphs />
       </AutomationDocument>
-      <DocumentScale Value="0.729762435" />
+      <DocumentPosition Value="Binary">
+        <Binary>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAABM9QwAAAAAL</Binary>
+      </DocumentPosition>
+      <DocumentScale Value="0.735161066" />
       <StartOnProjectStart Value="False" />
       <Content Name="DynamicMembers">
         <Items>
@@ -560,6 +647,81 @@
                       <Position Value="1" />
                       <TypeAssemblyName Value="mscorlib" />
                       <TypeName Value="System.Single" />
+                    </OpenSpan.Automation.ParameterPrototype>
+                  </Items>
+                </Content>
+              </OpenSpan.Automation.MethodSignature>
+            </Content>
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableMethod>
+    <OpenSpan.Automation.CatchHost Name="catchHost2" Id="CatchHost-8D2B8F781D72856">
+      <ComponentName Value="catchHost2" />
+      <DisplayName Value="CATCH" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="OpenSpan.Automation.Design.TryHost" />
+      <InstanceUniqueId Value="Automator-8D2B830790A2D38\CatchHost-8D2B8F781D72856" />
+      <MemberDetails Value="" />
+      <Content Name="CaughtLinkIDs">
+        <Capacity Value="5" />
+        <Items>
+          <System.Int32 Value="30" />
+          <System.Int32 Value="36" />
+        </Items>
+      </Content>
+      <Content Name="DynamicMembers">
+        <Items>
+          <OpenSpan.DynamicMembers.DynamicEventInfo dynamicType="Event" name="_Exception1" aliasName="" visibility="AlwaysHidden" source="" blockTypeName="" eventHandlerType="OpenSpan.Automation.ExecutionEventHandler" />
+          <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="_Exception1" canRead="True" canWrite="True" typeAssembly="OpenSpan.Automation, Version=6.2.14.0, Culture=neutral, PublicKeyToken=null" type="OpenSpan.Automation.ExceptionTypeInfo" aliasName="_Exception1" shouldSerialize="True" visibility="AlwaysHidden" source="" blockTypeName="">
+            <OpenSpan.Automation.ExceptionTypeInfo>
+              <OpenSpan.Automation.ExceptionTypeInfo Value="System.Exception" />
+            </OpenSpan.Automation.ExceptionTypeInfo>
+          </OpenSpan.DynamicMembers.DynamicPropertyInfo>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.CatchHost>
+    <OpenSpan.Automation.ConnectableMethod Name="connectableMethod1" Id="ConnectableMethod-8D2B8F791344356">
+      <ComponentName Value="F_WriteDiagnosticLogByType" />
+      <DisplayName Value="Execute" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="OpenSpan.Automation.Automator" />
+      <InstanceUniqueId Value="Automator-8D2B4472D6C6FD6" />
+      <MemberDetails Value=".Execute() Method" />
+      <ParamsLength Value="0" />
+      <SerializedParamsDefaultValues Value="" />
+      <Content Name="DynamicMembers">
+        <Items>
+          <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="Result" canRead="True" canWrite="False" type="System.Boolean" aliasName="Result" shouldSerialize="False" visibility="DefaultOn" source="" blockTypeName="" />
+        </Items>
+      </Content>
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="_EntryPointExecute" />
+            <MemberType Value="Method" />
+            <Content Name="Signature">
+              <OpenSpan.Automation.MethodSignature>
+                <ReturnType Value="System.Boolean" />
+                <Content Name="ParameterPrototype">
+                  <Items>
+                    <OpenSpan.Automation.ParameterPrototype>
+                      <CanRead Value="False" />
+                      <CanWrite Value="True" />
+                      <DefaultSet Value="False" />
+                      <DefaultValue Value="" />
+                      <Position Value="0" />
+                      <TypeAssemblyName Value="mscorlib" />
+                      <TypeName Value="System.String" />
+                    </OpenSpan.Automation.ParameterPrototype>
+                    <OpenSpan.Automation.ParameterPrototype>
+                      <CanRead Value="False" />
+                      <CanWrite Value="True" />
+                      <DefaultSet Value="False" />
+                      <DefaultValue Value="" />
+                      <Position Value="1" />
+                      <TypeAssemblyName Value="mscorlib" />
+                      <TypeName Value="System.String" />
                     </OpenSpan.Automation.ParameterPrototype>
                   </Items>
                 </Content>

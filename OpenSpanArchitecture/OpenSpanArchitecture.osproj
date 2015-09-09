@@ -129,6 +129,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="System\UnitTests" />
     <Folder Include="System\Procedures\Private\" />
     <Folder Include="System\Procedures\Public\" />
     <Folder Include="System\UI\UI_Menu" />
@@ -194,6 +195,10 @@
     <Compile Include="System\Functions\F_FormatEmail.os">
       <SubType>Component</SubType>
       <Id>Automator-8D2B47906712695</Id>
+    </Compile>
+    <Compile Include="System\Functions\F_IsFieldEmpty.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B8F60F0FC0C0</Id>
     </Compile>
     <Compile Include="System\Functions\F_WriteDiagnosticLogByType.os">
       <SubType>Component</SubType>
