@@ -192,6 +192,10 @@
       <SubType>Component</SubType>
       <Id>Automator-8D2B83927771D36</Id>
     </Compile>
+    <Compile Include="System\Functions\F_FormatBankCheckingAccount.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B91DA252C4BE</Id>
+    </Compile>
     <Compile Include="System\Functions\F_FormatCPF.os">
       <SubType>Component</SubType>
       <Id>Automator-8D2B9002E0C512A</Id>
@@ -248,6 +252,10 @@
       <SubType>Component</SubType>
       <Id>Automator-8D2B84196D9F020</Id>
     </Compile>
+    <Compile Include="System\Procedures\Private\_P_FormatBankCheckingAccount.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B9219EF5BFB3</Id>
+    </Compile>
     <Compile Include="System\Procedures\Private\_P_FormatCEP.os">
       <SubType>Component</SubType>
       <Id>Automator-8D2B907D6C2561C</Id>
@@ -291,6 +299,10 @@
     <Compile Include="System\Procedures\Public\P_ConvertStringToInteger.os">
       <SubType>Component</SubType>
       <Id>Automator-8D2B8431F16AC97</Id>
+    </Compile>
+    <Compile Include="System\Procedures\Public\P_FormatBankCheckingAccount.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B9237783FE4A</Id>
     </Compile>
     <Compile Include="System\Procedures\Public\P_FormatCEP.os">
       <SubType>Component</SubType>
