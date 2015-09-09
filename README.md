@@ -14,8 +14,8 @@ This repository contains a sample project of an OpenSpan Architecture Model foll
 - F_ConvertStringToDouble     (String value) **[P]**
 - F_ConvertStringToFloat      (String value) **[P]**
 - F_ConvertStringToInteger    (String value) **[P]**
-- F_FormatCPF                 (String cpf)
 - F_FormatCEP                 (String cep)
+- F_FormatCPF                 (String cpf)
 - F_FormatEmail               (String desiredEmail, String domain) **[P]**
 - F_ShowMessageDialog         (String description, String message)
 - F_WriteDiagnosticLogByType  (String description, String message)
