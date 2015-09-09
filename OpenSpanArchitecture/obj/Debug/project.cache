@@ -57,7 +57,6 @@
     <DesignComponent id="Automator-8D2B8429BC5D4A5" className="P_ConvertStringToFloat" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D2B8431F16AC97" className="P_ConvertStringToInteger" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D2B9237783FE4A" className="P_FormatBankCheckingAccount" type="Automation" isPublic="True" screenShots="" />
-    <DesignComponent id="Automator-8D2B90AEF199932" className="P_FormatCEP" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D2B90AF5AEBCB6" className="P_FormatCPF" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D2B480E94EB6F1" className="P_FormatEmail" type="Automation" isPublic="True" screenShots="" />
   </DesignComponents>

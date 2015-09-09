@@ -21,8 +21,8 @@
         <Objects>
           <ConnectionBlock>
             <ConnectableUniqueId Value="Automator-8D2B9002E0C512A\EntryPoint-8D2B900389093EA" />
-            <Left Value="43" />
-            <Top Value="202" />
+            <Left Value="40" />
+            <Top Value="200" />
             <PartID Value="2" />
           </ConnectionBlock>
           <ConnectionBlock>
@@ -82,8 +82,8 @@
           </ConnectionBlock>
           <ConnectionBlock type="OpenSpan.Automation.Design.ConnectionBlocks.MultiExitPointBlock">
             <ConnectableUniqueId Value="Automator-8D2B9002E0C512A\ExitPoint-8D2B90180FCA06C" />
-            <Left Value="1083" />
-            <Top Value="342" />
+            <Left Value="1086" />
+            <Top Value="344" />
             <PartID Value="22" />
             <Title Value="Exit" />
             <EventName Value="" />
@@ -258,10 +258,10 @@
             <LinkPoints>
               <Point value="1000, 415" />
               <Point value="1010, 415" />
-              <Point value="1015, 415" />
-              <Point value="1015, 390" />
-              <Point value="1076, 390" />
-              <Point value="1086, 390" />
+              <Point value="1044, 415" />
+              <Point value="1044, 392" />
+              <Point value="1079, 392" />
+              <Point value="1089, 392" />
             </LinkPoints>
           </Link>
           <Link PartID="24" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
@@ -270,10 +270,10 @@
             <LinkPoints>
               <Point value="1000, 325" />
               <Point value="1010, 325" />
-              <Point value="1043, 325" />
-              <Point value="1043, 361" />
-              <Point value="1076, 361" />
-              <Point value="1086, 361" />
+              <Point value="1044, 325" />
+              <Point value="1044, 363" />
+              <Point value="1079, 363" />
+              <Point value="1089, 363" />
             </LinkPoints>
           </Link>
         </Links>

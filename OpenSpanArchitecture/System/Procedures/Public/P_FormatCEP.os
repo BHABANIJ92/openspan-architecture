@@ -62,8 +62,8 @@
           </ConnectionBlock>
           <ConnectionBlock type="OpenSpan.Automation.Design.ConnectionBlocks.MultiExitPointBlock">
             <ConnectableUniqueId Value="Automator-8D2B90AEF199932\ExitPoint-8D2B90B986B7471" />
-            <Left Value="460" />
-            <Top Value="320" />
+            <Left Value="463" />
+            <Top Value="322" />
             <PartID Value="10" />
             <Title Value="Exit" />
             <EventName Value="" />
@@ -100,8 +100,10 @@
             <LinkPoints>
               <Point value="372, 225" />
               <Point value="382, 225" />
-              <Point value="382, 255" />
-              <Point value="233, 255" />
+              <Point value="385, 225" />
+              <Point value="385, 245" />
+              <Point value="235, 245" />
+              <Point value="235, 285" />
               <Point value="233, 285" />
               <Point value="243, 285" />
             </LinkPoints>
@@ -112,8 +114,10 @@
             <LinkPoints>
               <Point value="372, 300" />
               <Point value="382, 300" />
-              <Point value="382, 352" />
-              <Point value="233, 352" />
+              <Point value="385, 300" />
+              <Point value="385, 365" />
+              <Point value="235, 365" />
+              <Point value="235, 405" />
               <Point value="233, 405" />
               <Point value="243, 405" />
             </LinkPoints>
@@ -124,10 +128,10 @@
             <LinkPoints>
               <Point value="372, 405" />
               <Point value="382, 405" />
-              <Point value="385, 405" />
-              <Point value="385, 339" />
-              <Point value="453, 339" />
-              <Point value="463, 339" />
+              <Point value="419, 405" />
+              <Point value="419, 341" />
+              <Point value="456, 341" />
+              <Point value="466, 341" />
             </LinkPoints>
           </Link>
           <Link PartID="12" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
@@ -137,9 +141,9 @@
               <Point value="372, 330" />
               <Point value="382, 330" />
               <Point value="385, 330" />
-              <Point value="385, 368" />
-              <Point value="453, 368" />
-              <Point value="463, 368" />
+              <Point value="385, 370" />
+              <Point value="456, 370" />
+              <Point value="466, 370" />
             </LinkPoints>
           </Link>
           <Link PartID="13" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
@@ -149,9 +153,9 @@
               <Point value="372, 345" />
               <Point value="382, 345" />
               <Point value="385, 345" />
-              <Point value="385, 385" />
-              <Point value="453, 385" />
-              <Point value="463, 385" />
+              <Point value="385, 387" />
+              <Point value="456, 387" />
+              <Point value="466, 387" />
             </LinkPoints>
           </Link>
         </Links>
@@ -172,8 +176,8 @@
     </OpenSpan.Automation.Automator>
     <OpenSpan.Automation.EntryPoint Name="entryPoint1" Id="EntryPoint-8D2B90B7C7E751E">
       <AliasName Value="Execute" />
-      <ComponentName Value="&lt;No Instance&gt;" />
-      <DisplayName Value="" />
+      <ComponentName Value="Execute" />
+      <DisplayName Value="Execute" />
       <ExceptionsHandled Value="False" />
       <InstanceTypeName Value="OpenSpan.Automation.EntryPoint" />
       <InstanceUniqueId Value="Automator-8D2B90AEF199932\EntryPoint-8D2B90B7C7E751E" />
