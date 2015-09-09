@@ -24,9 +24,6 @@
     <DesignComponent id="Automator-8D2B45233C2F3A1" className="F_WriteEventLogByType" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D2B512C37C5C52" className="P_CompareStringValues" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D2B485797A403D" className="P_ContainsStringValue" type="Automation" isPublic="True" screenShots="" />
-    <DesignComponent id="Automator-8D2B84225B80739" className="P_ConvertStringToDouble" type="Automation" isPublic="True" screenShots="" />
-    <DesignComponent id="Automator-8D2B8429BC5D4A5" className="P_ConvertStringToFloat" type="Automation" isPublic="True" screenShots="" />
-    <DesignComponent id="Automator-8D2B8431F16AC97" className="P_ConvertStringToInteger" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="GlobalContainer-8D2B446F28A4776" className="SystemGlobalContainer" type="GlobalContainer" isPublic="True" screenShots="">
       <DynamicClasses>
         <DynamicClass id="Script-8D2B836FABD74A8" fileExt=".cs">
