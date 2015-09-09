@@ -21,8 +21,8 @@
         <Objects>
           <ConnectionBlock>
             <ConnectableUniqueId Value="Automator-8D2B8FB5960125E\EntryPoint-8D2B8FBFBAE0213" />
-            <Left Value="43" />
-            <Top Value="202" />
+            <Left Value="46" />
+            <Top Value="204" />
             <PartID Value="1" />
           </ConnectionBlock>
           <ConnectionBlock>
@@ -60,8 +60,8 @@
           </ConnectionBlock>
           <ConnectionBlock type="OpenSpan.Automation.Design.ConnectionBlocks.MultiExitPointBlock">
             <ConnectableUniqueId Value="Automator-8D2B8FB5960125E\ExitPoint-8D2B9047D181FBA" />
-            <Left Value="720" />
-            <Top Value="300" />
+            <Left Value="723" />
+            <Top Value="302" />
             <PartID Value="53" />
             <Title Value="Exit" />
             <EventName Value="" />
@@ -163,9 +163,9 @@
               <Point value="657, 365" />
               <Point value="667, 365" />
               <Point value="667, 365" />
-              <Point value="667, 348" />
-              <Point value="713, 348" />
-              <Point value="723, 348" />
+              <Point value="667, 350" />
+              <Point value="716, 350" />
+              <Point value="726, 350" />
             </LinkPoints>
           </Link>
           <Link PartID="55" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
@@ -174,10 +174,10 @@
             <LinkPoints>
               <Point value="657, 305" />
               <Point value="667, 305" />
-              <Point value="667, 305" />
-              <Point value="667, 319" />
-              <Point value="713, 319" />
-              <Point value="723, 319" />
+              <Point value="691, 305" />
+              <Point value="691, 321" />
+              <Point value="716, 321" />
+              <Point value="726, 321" />
             </LinkPoints>
           </Link>
         </Links>
@@ -233,15 +233,12 @@
         </Items>
       </Content>
     </OpenSpan.Automation.EntryPoint>
-    <OpenSpan.Controls.StringUtils Name="stringUtils" Id="StringUtils-8D2B8FCBA2C86B4">
-      <Scope Value="Local" Extended="True" />
-    </OpenSpan.Controls.StringUtils>
     <OpenSpan.Automation.ConnectableMethod Name="connectableMethod2" Id="ConnectableMethod-8D2B8FE37154105">
       <ComponentName Value="stringUtils" />
       <DisplayName Value="Substring" />
       <ExceptionsHandled Value="False" />
       <InstanceTypeName Value="OpenSpan.Controls.StringUtils" />
-      <InstanceUniqueId Value="Automator-8D2B8FB5960125E\StringUtils-8D2B8FCBA2C86B4" />
+      <InstanceUniqueId Value="GlobalContainer-8D2B446F28A4776\StringUtils-8D2B44DFF46FB8E" />
       <MemberDetails Value=".Substring() Method" />
       <ParamsLength Value="0" />
       <SerializedParamsDefaultValues Value="" />
@@ -300,7 +297,7 @@
       <DisplayName Value="Substring" />
       <ExceptionsHandled Value="False" />
       <InstanceTypeName Value="OpenSpan.Controls.StringUtils" />
-      <InstanceUniqueId Value="Automator-8D2B8FB5960125E\StringUtils-8D2B8FCBA2C86B4" />
+      <InstanceUniqueId Value="GlobalContainer-8D2B446F28A4776\StringUtils-8D2B44DFF46FB8E" />
       <MemberDetails Value=".Substring() Method" />
       <ParamsLength Value="0" />
       <SerializedParamsDefaultValues Value="" />
@@ -359,7 +356,7 @@
       <DisplayName Value="Format" />
       <ExceptionsHandled Value="False" />
       <InstanceTypeName Value="OpenSpan.Controls.StringUtils" />
-      <InstanceUniqueId Value="Automator-8D2B8FB5960125E\StringUtils-8D2B8FCBA2C86B4" />
+      <InstanceUniqueId Value="GlobalContainer-8D2B446F28A4776\StringUtils-8D2B44DFF46FB8E" />
       <MemberDetails Value=".Format() Method" />
       <ParamsLength Value="0" />
       <SerializedParamsDefaultValues Value="" />

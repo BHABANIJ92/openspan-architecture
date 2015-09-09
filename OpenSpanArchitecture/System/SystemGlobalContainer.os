@@ -71,5 +71,9 @@
         </Items>
       </Content>
     </OpenSpan.Script.Custom.Script>
+    <OpenSpan.Controls.EventLog Name="eventLog" Id="EventLog-8D2B928989F4AF1">
+      <LogName Value="OS_AUTOMATION" />
+      <Source Value="OpenSpan Automation" />
+    </OpenSpan.Controls.EventLog>
   </Component>
 </OpenSpanDesignDocument>

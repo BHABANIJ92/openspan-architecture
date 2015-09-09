@@ -24,8 +24,8 @@
         <Objects>
           <ConnectionBlock>
             <ConnectableUniqueId Value="Automator-8D2B46B48DE9CDD\EntryPoint-8D2B46B5B99B525" />
-            <Left Value="46" />
-            <Top Value="204" />
+            <Left Value="49" />
+            <Top Value="206" />
             <PartID Value="3" />
           </ConnectionBlock>
           <ConnectionBlock>
@@ -80,16 +80,16 @@
           </ConnectionBlock>
           <ConnectionBlock type="OpenSpan.Automation.Design.ConnectionBlocks.MultiExitPointBlock">
             <ConnectableUniqueId Value="Automator-8D2B46B48DE9CDD\ExitPoint-8D2B46C15F60E31" />
-            <Left Value="221" />
-            <Top Value="354" />
+            <Left Value="224" />
+            <Top Value="356" />
             <PartID Value="16" />
             <Title Value="Exit" />
             <EventName Value="" />
           </ConnectionBlock>
           <ConnectionBlock>
             <ConnectableUniqueId Value="Automator-8D2B46B48DE9CDD\LabelHost-8D2B46C1AC8E244" />
-            <Left Value="61" />
-            <Top Value="354" />
+            <Left Value="64" />
+            <Top Value="356" />
             <PartID Value="17" />
           </ConnectionBlock>
           <ConnectionBlock>
@@ -162,7 +162,7 @@
             <ConnectableUniqueId Value="Automator-8D2B46B48DE9CDD\JumpHost-8D2B46E3324BA5E" />
             <PartID Value="44" />
             <Left Value="880" />
-            <Top Value="813" />
+            <Top Value="812" />
             <Collapsed Value="False" />
             <WillExecute Value="True" />
             <InstanceName Value="Jump To" />
@@ -173,7 +173,7 @@
             <ConnectableUniqueId Value="Automator-8D2B46B48DE9CDD\JumpHost-8D2B46E39910F24" />
             <PartID Value="46" />
             <Left Value="1040" />
-            <Top Value="693" />
+            <Top Value="692" />
             <Collapsed Value="False" />
             <WillExecute Value="True" />
             <InstanceName Value="Jump To" />
@@ -198,7 +198,7 @@
             <ConnectableUniqueId Value="Automator-8D2B46B48DE9CDD\JumpHost-8D2B4711068014B" />
             <PartID Value="51" />
             <Left Value="840" />
-            <Top Value="272" />
+            <Top Value="271" />
             <Collapsed Value="False" />
             <WillExecute Value="True" />
             <InstanceName Value="Jump To" />
@@ -209,7 +209,7 @@
             <ConnectableUniqueId Value="Automator-8D2B46B48DE9CDD\JumpHost-8D2B47112107CD7" />
             <PartID Value="52" />
             <Left Value="840" />
-            <Top Value="396" />
+            <Top Value="395" />
             <Collapsed Value="False" />
             <WillExecute Value="True" />
             <InstanceName Value="Jump To" />
@@ -221,10 +221,10 @@
             <From PartID="3" PortName="Complete" PortType="Event" ConnectableId="Automator-8D2B46B48DE9CDD\EntryPoint-8D2B46B5B99B525" MemberComponentId="Automator-8D2B46B48DE9CDD\EntryPoint-8D2B46B5B99B525" />
             <To PartID="4" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D2B46B48DE9CDD\ConnectableProperties-8D2B46B916C5C99" MemberComponentId="Automator-8D2B46B48DE9CDD\ConnectableProperties-8D2B46B916C5C99" />
             <LinkPoints>
-              <Point value="156, 219" />
-              <Point value="166, 219" />
-              <Point value="166, 219" />
-              <Point value="166, 225" />
+              <Point value="165, 225" />
+              <Point value="175, 225" />
+              <Point value="214, 225" />
+              <Point value="214, 225" />
               <Point value="253, 225" />
               <Point value="263, 225" />
             </LinkPoints>
@@ -233,10 +233,10 @@
             <From PartID="3" PortName="param1" PortType="Property" ConnectableId="Automator-8D2B46B48DE9CDD\EntryPoint-8D2B46B5B99B525" MemberComponentId="EMPTY" />
             <To PartID="4" PortName="Value" PortType="Property" ConnectableId="Automator-8D2B46B48DE9CDD\ConnectableProperties-8D2B46B916C5C99" MemberComponentId="Automator-8D2B46B48DE9CDD\StringVariable-8D2B46B9162C123" />
             <LinkPoints>
-              <Point value="156, 248" />
-              <Point value="166, 248" />
-              <Point value="166, 248" />
-              <Point value="166, 240" />
+              <Point value="165, 254" />
+              <Point value="175, 254" />
+              <Point value="214, 254" />
+              <Point value="214, 240" />
               <Point value="253, 240" />
               <Point value="263, 240" />
             </LinkPoints>
@@ -245,10 +245,10 @@
             <From PartID="3" PortName="_param1" PortType="Property" ConnectableId="Automator-8D2B46B48DE9CDD\EntryPoint-8D2B46B5B99B525" MemberComponentId="EMPTY" />
             <To PartID="5" PortName="Value" PortType="Property" ConnectableId="Automator-8D2B46B48DE9CDD\ConnectableProperties-8D2B46B93730073" MemberComponentId="Automator-8D2B46B48DE9CDD\StringVariable-8D2B46B936DF829" />
             <LinkPoints>
-              <Point value="156, 265" />
-              <Point value="166, 265" />
-              <Point value="166, 265" />
-              <Point value="166, 260" />
+              <Point value="165, 271" />
+              <Point value="175, 271" />
+              <Point value="324, 271" />
+              <Point value="324, 260" />
               <Point value="473, 260" />
               <Point value="483, 260" />
             </LinkPoints>
@@ -307,24 +307,24 @@
             <From PartID="17" PortName="_param1" PortType="Property" ConnectableId="Automator-8D2B46B48DE9CDD\LabelHost-8D2B46C1AC8E244" MemberComponentId="EMPTY" />
             <To PartID="16" PortName="Result" PortType="Property" ConnectableId="Automator-8D2B46B48DE9CDD\ExitPoint-8D2B46C15F60E31" MemberComponentId="EMPTY" />
             <LinkPoints>
-              <Point value="165, 402" />
-              <Point value="175, 402" />
-              <Point value="194, 402" />
-              <Point value="194, 402" />
-              <Point value="214, 402" />
-              <Point value="224, 402" />
+              <Point value="168, 404" />
+              <Point value="178, 404" />
+              <Point value="197, 404" />
+              <Point value="197, 404" />
+              <Point value="217, 404" />
+              <Point value="227, 404" />
             </LinkPoints>
           </Link>
           <Link PartID="19" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
             <From PartID="17" PortName="Complete" PortType="Event" ConnectableId="Automator-8D2B46B48DE9CDD\LabelHost-8D2B46C1AC8E244" MemberComponentId="Automator-8D2B46B48DE9CDD\LabelHost-8D2B46C1AC8E244" />
             <To PartID="16" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D2B46B48DE9CDD\ExitPoint-8D2B46C15F60E31" MemberComponentId="Automator-8D2B46B48DE9CDD\ExitPoint-8D2B46C15F60E31" />
             <LinkPoints>
-              <Point value="165, 373" />
-              <Point value="175, 373" />
-              <Point value="194, 373" />
-              <Point value="194, 373" />
-              <Point value="214, 373" />
-              <Point value="224, 373" />
+              <Point value="168, 375" />
+              <Point value="178, 375" />
+              <Point value="197, 375" />
+              <Point value="197, 375" />
+              <Point value="217, 375" />
+              <Point value="227, 375" />
             </LinkPoints>
           </Link>
           <DecisionEventLink PartID="20" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
@@ -369,8 +369,6 @@
             <LinkPoints>
               <Point value="569, 715" />
               <Point value="579, 715" />
-              <Point value="575, 715" />
-              <Point value="575, 715" />
               <Point value="585, 715" />
               <Point value="585, 695" />
               <Point value="679, 695" />
@@ -384,8 +382,6 @@
             <LinkPoints>
               <Point value="569, 795" />
               <Point value="579, 795" />
-              <Point value="575, 795" />
-              <Point value="575, 795" />
               <Point value="585, 795" />
               <Point value="585, 695" />
               <Point value="708, 695" />
@@ -425,10 +421,11 @@
             <LinkPoints>
               <Point value="930, 777" />
               <Point value="930, 787" />
-              <Point value="930, 800" />
-              <Point value="873, 800" />
-              <Point value="873, 831" />
-              <Point value="883, 831" />
+              <Point value="930, 795" />
+              <Point value="875, 795" />
+              <Point value="875, 828" />
+              <Point value="873, 828" />
+              <Point value="883, 828" />
             </LinkPoints>
           </Link>
           <Link PartID="47" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
@@ -437,10 +434,10 @@
             <LinkPoints>
               <Point value="977, 730" />
               <Point value="987, 730" />
-              <Point value="1010, 730" />
-              <Point value="1010, 711" />
-              <Point value="1033, 711" />
-              <Point value="1043, 711" />
+              <Point value="995, 730" />
+              <Point value="995, 708" />
+              <Point value="1033, 708" />
+              <Point value="1043, 708" />
             </LinkPoints>
           </Link>
           <DecisionEventLink PartID="49" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
@@ -474,9 +471,9 @@
               <Point value="762, 369" />
               <Point value="772, 369" />
               <Point value="775, 369" />
-              <Point value="775, 288" />
-              <Point value="833, 288" />
-              <Point value="843, 288" />
+              <Point value="775, 287" />
+              <Point value="833, 287" />
+              <Point value="843, 287" />
             </LinkPoints>
           </DecisionEventLink>
           <DecisionEventLink PartID="54" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
@@ -486,9 +483,9 @@
               <Point value="762, 384" />
               <Point value="772, 384" />
               <Point value="775, 384" />
-              <Point value="775, 412" />
-              <Point value="833, 412" />
-              <Point value="843, 412" />
+              <Point value="775, 411" />
+              <Point value="833, 411" />
+              <Point value="843, 411" />
             </LinkPoints>
           </DecisionEventLink>
           <Link PartID="57" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
@@ -562,9 +559,9 @@
               <Point value="762, 609" />
               <Point value="772, 609" />
               <Point value="775, 609" />
-              <Point value="775, 412" />
-              <Point value="833, 412" />
-              <Point value="843, 412" />
+              <Point value="775, 411" />
+              <Point value="833, 411" />
+              <Point value="843, 411" />
             </LinkPoints>
           </DecisionEventLink>
         </Links>
@@ -575,6 +572,9 @@
         </Comments>
         <SubGraphs />
       </AutomationDocument>
+      <DocumentPosition Value="Binary">
+        <Binary>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAQcyGQre8fUIL</Binary>
+      </DocumentPosition>
       <DocumentScale Value="0.756688535" />
       <Content Name="DynamicMembers">
         <Items>
@@ -675,15 +675,12 @@
         </Items>
       </Content>
     </OpenSpan.Automation.ConnectableProperties>
-    <OpenSpan.Controls.StringUtils Name="stringUtils" Id="StringUtils-8D2B46BBA29836F">
-      <Scope Value="Local" Extended="True" />
-    </OpenSpan.Controls.StringUtils>
     <OpenSpan.Automation.ConnectableMethod Name="connectableMethod1" Id="ConnectableMethod-8D2B46BC2F6EE6F">
       <ComponentName Value="stringUtils" />
       <DisplayName Value="IsNullOrEmpty" />
       <ExceptionsHandled Value="False" />
       <InstanceTypeName Value="OpenSpan.Controls.StringUtils" />
-      <InstanceUniqueId Value="Automator-8D2B46B48DE9CDD\StringUtils-8D2B46BBA29836F" />
+      <InstanceUniqueId Value="GlobalContainer-8D2B446F28A4776\StringUtils-8D2B44DFF46FB8E" />
       <MemberDetails Value=".IsNullOrEmpty() Method" />
       <ParamsLength Value="0" />
       <SerializedParamsDefaultValues Value="" />
@@ -724,7 +721,7 @@
       <DisplayName Value="IsNullOrEmpty" />
       <ExceptionsHandled Value="False" />
       <InstanceTypeName Value="OpenSpan.Controls.StringUtils" />
-      <InstanceUniqueId Value="Automator-8D2B46B48DE9CDD\StringUtils-8D2B46BBA29836F" />
+      <InstanceUniqueId Value="GlobalContainer-8D2B446F28A4776\StringUtils-8D2B44DFF46FB8E" />
       <MemberDetails Value=".IsNullOrEmpty() Method" />
       <ParamsLength Value="0" />
       <SerializedParamsDefaultValues Value="" />
@@ -905,7 +902,7 @@
       <DisplayName Value="ToUpper" />
       <ExceptionsHandled Value="False" />
       <InstanceTypeName Value="OpenSpan.Controls.StringUtils" />
-      <InstanceUniqueId Value="Automator-8D2B46B48DE9CDD\StringUtils-8D2B46BBA29836F" />
+      <InstanceUniqueId Value="GlobalContainer-8D2B446F28A4776\StringUtils-8D2B44DFF46FB8E" />
       <MemberDetails Value=".ToUpper() Method" />
       <ParamsLength Value="0" />
       <SerializedParamsDefaultValues Value="" />
@@ -946,7 +943,7 @@
       <DisplayName Value="ToUpper" />
       <ExceptionsHandled Value="False" />
       <InstanceTypeName Value="OpenSpan.Controls.StringUtils" />
-      <InstanceUniqueId Value="Automator-8D2B46B48DE9CDD\StringUtils-8D2B46BBA29836F" />
+      <InstanceUniqueId Value="GlobalContainer-8D2B446F28A4776\StringUtils-8D2B44DFF46FB8E" />
       <MemberDetails Value=".ToUpper() Method" />
       <ParamsLength Value="0" />
       <SerializedParamsDefaultValues Value="" />
@@ -1069,7 +1066,7 @@
       <DisplayName Value="IsNullOrEmpty" />
       <ExceptionsHandled Value="False" />
       <InstanceTypeName Value="OpenSpan.Controls.StringUtils" />
-      <InstanceUniqueId Value="Automator-8D2B46B48DE9CDD\StringUtils-8D2B46BBA29836F" />
+      <InstanceUniqueId Value="GlobalContainer-8D2B446F28A4776\StringUtils-8D2B44DFF46FB8E" />
       <MemberDetails Value=".IsNullOrEmpty() Method" />
       <ParamsLength Value="0" />
       <SerializedParamsDefaultValues Value="" />
