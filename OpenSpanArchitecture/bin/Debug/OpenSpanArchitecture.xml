@@ -199,6 +199,46 @@
             Calls automation Entry Point.
             </summary>
         </member>
+        <member name="T:OpenSpanArchitecture.F_FormatBankCheckingAccount">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_FormatBankCheckingAccount.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_FormatBankCheckingAccount.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_FormatBankCheckingAccount.Execute(System.String)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture.F_FormatCPF">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_FormatCPF.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_FormatCPF.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_FormatCPF.Execute(System.String)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
         <member name="T:OpenSpanArchitecture.F_FormatEmail">
             <summary>
             OpenSpan design designComp.
@@ -214,7 +254,27 @@
             Stop this design designComp.
             </summary>
         </member>
-        <member name="M:OpenSpanArchitecture.F_FormatEmail.Execute(System.String,System.String,System.String@)">
+        <member name="M:OpenSpanArchitecture.F_FormatEmail.Execute(System.String,System.String)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture.F_FormatCEP">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_FormatCEP.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_FormatCEP.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.F_FormatCEP.Execute(System.String)">
             <summary>
             Calls automation Entry Point.
             </summary>
@@ -394,7 +454,7 @@
             Stop this design designComp.
             </summary>
         </member>
-        <member name="M:OpenSpanArchitecture._P_ConvertStringToDouble.Execute(System.String)">
+        <member name="M:OpenSpanArchitecture._P_ConvertStringToDouble.Execute(System.String,System.Double@)">
             <summary>
             Calls automation Entry Point.
             </summary>
@@ -414,7 +474,7 @@
             Stop this design designComp.
             </summary>
         </member>
-        <member name="M:OpenSpanArchitecture._P_ConvertStringToFloat.Execute(System.String)">
+        <member name="M:OpenSpanArchitecture._P_ConvertStringToFloat.Execute(System.String,System.Single@)">
             <summary>
             Calls automation Entry Point.
             </summary>
@@ -434,7 +494,67 @@
             Stop this design designComp.
             </summary>
         </member>
-        <member name="M:OpenSpanArchitecture._P_ConvertStringToInteger.Execute(System.String)">
+        <member name="M:OpenSpanArchitecture._P_ConvertStringToInteger.Execute(System.String,System.Int32@)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture._P_FormatBankCheckingAccount">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_FormatBankCheckingAccount.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_FormatBankCheckingAccount.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_FormatBankCheckingAccount.Execute(System.String,System.String@)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture._P_FormatCEP">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_FormatCEP.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_FormatCEP.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_FormatCEP.Execute(System.String,System.String@)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture._P_FormatCPF">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_FormatCPF.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_FormatCPF.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture._P_FormatCPF.Execute(System.String,System.String@)">
             <summary>
             Calls automation Entry Point.
             </summary>
@@ -574,7 +694,7 @@
             Stop this design designComp.
             </summary>
         </member>
-        <member name="M:OpenSpanArchitecture.P_ConvertStringToDouble.Execute(System.String)">
+        <member name="M:OpenSpanArchitecture.P_ConvertStringToDouble.Execute(System.String,System.Double@)">
             <summary>
             Calls automation Entry Point.
             </summary>
@@ -594,7 +714,7 @@
             Stop this design designComp.
             </summary>
         </member>
-        <member name="M:OpenSpanArchitecture.P_ConvertStringToFloat.Execute(System.String)">
+        <member name="M:OpenSpanArchitecture.P_ConvertStringToFloat.Execute(System.String,System.Single@)">
             <summary>
             Calls automation Entry Point.
             </summary>
@@ -614,7 +734,67 @@
             Stop this design designComp.
             </summary>
         </member>
-        <member name="M:OpenSpanArchitecture.P_ConvertStringToInteger.Execute(System.String)">
+        <member name="M:OpenSpanArchitecture.P_ConvertStringToInteger.Execute(System.String,System.Int32@)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture.P_FormatBankCheckingAccount">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_FormatBankCheckingAccount.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_FormatBankCheckingAccount.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_FormatBankCheckingAccount.Execute(System.String,System.String@)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture.P_FormatCEP">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_FormatCEP.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_FormatCEP.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_FormatCEP.Execute(System.String,System.String@)">
+            <summary>
+            Calls automation Entry Point.
+            </summary>
+        </member>
+        <member name="T:OpenSpanArchitecture.P_FormatCPF">
+            <summary>
+            OpenSpan design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_FormatCPF.Start">
+            <summary>
+            Start this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_FormatCPF.Stop">
+            <summary>
+            Stop this design designComp.
+            </summary>
+        </member>
+        <member name="M:OpenSpanArchitecture.P_FormatCPF.Execute(System.String,System.String@)">
             <summary>
             Calls automation Entry Point.
             </summary>

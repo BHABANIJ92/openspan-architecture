@@ -6,12 +6,6 @@ using OpenSpanArchitecture_WebAdapter = OpenSpanArchitecture.WebAdapter;
 
 using OpenSpanArchitecture_WebAdapterGlobalContainer = OpenSpanArchitecture.WebAdapterGlobalContainer;
 
-using OpenSpanArchitecture_F_CompareDoubleValues = OpenSpanArchitecture.F_CompareDoubleValues;
-
-using OpenSpanArchitecture_F_CompareFloatValues = OpenSpanArchitecture.F_CompareFloatValues;
-
-using OpenSpanArchitecture_F_CompareIntegerValues = OpenSpanArchitecture.F_CompareIntegerValues;
-
 using OpenSpanArchitecture_F_CompareStringValues = OpenSpanArchitecture.F_CompareStringValues;
 
 using OpenSpanArchitecture_F_ContainsStringValue = OpenSpanArchitecture.F_ContainsStringValue;
@@ -22,11 +16,29 @@ using OpenSpanArchitecture_F_ConvertStringToFloat = OpenSpanArchitecture.F_Conve
 
 using OpenSpanArchitecture_F_ConvertStringToInteger = OpenSpanArchitecture.F_ConvertStringToInteger;
 
-using OpenSpanArchitecture_F_FormatEmail = OpenSpanArchitecture.F_FormatEmail;
-
 using OpenSpanArchitecture_F_WriteDiagnosticLogByType = OpenSpanArchitecture.F_WriteDiagnosticLogByType;
 
 using OpenSpanArchitecture_F_WriteEventLogByType = OpenSpanArchitecture.F_WriteEventLogByType;
+
+using OpenSpanArchitecture_P_CompareStringValues = OpenSpanArchitecture.P_CompareStringValues;
+
+using OpenSpanArchitecture_P_ContainsStringValue = OpenSpanArchitecture.P_ContainsStringValue;
+
+using OpenSpanArchitecture_SystemGlobalContainer = OpenSpanArchitecture.SystemGlobalContainer;
+
+using OpenSpanArchitecture_F_CompareDoubleValues = OpenSpanArchitecture.F_CompareDoubleValues;
+
+using OpenSpanArchitecture_F_CompareFloatValues = OpenSpanArchitecture.F_CompareFloatValues;
+
+using OpenSpanArchitecture_F_CompareIntegerValues = OpenSpanArchitecture.F_CompareIntegerValues;
+
+using OpenSpanArchitecture_F_FormatBankCheckingAccount = OpenSpanArchitecture.F_FormatBankCheckingAccount;
+
+using OpenSpanArchitecture_F_FormatCPF = OpenSpanArchitecture.F_FormatCPF;
+
+using OpenSpanArchitecture_F_FormatEmail = OpenSpanArchitecture.F_FormatEmail;
+
+using OpenSpanArchitecture_F_FormatCEP = OpenSpanArchitecture.F_FormatCEP;
 
 using OpenSpanArchitecture_F_ShowMessageDialog = OpenSpanArchitecture.F_ShowMessageDialog;
 
@@ -46,17 +58,19 @@ using OpenSpanArchitecture__P_ConvertStringToFloat = OpenSpanArchitecture._P_Con
 
 using OpenSpanArchitecture__P_ConvertStringToInteger = OpenSpanArchitecture._P_ConvertStringToInteger;
 
+using OpenSpanArchitecture__P_FormatBankCheckingAccount = OpenSpanArchitecture._P_FormatBankCheckingAccount;
+
+using OpenSpanArchitecture__P_FormatCEP = OpenSpanArchitecture._P_FormatCEP;
+
+using OpenSpanArchitecture__P_FormatCPF = OpenSpanArchitecture._P_FormatCPF;
+
 using OpenSpanArchitecture__P_FormatEmail = OpenSpanArchitecture._P_FormatEmail;
 
 using OpenSpanArchitecture_P_CompareDoubleValues = OpenSpanArchitecture.P_CompareDoubleValues;
 
 using OpenSpanArchitecture_P_CompareFloatValues = OpenSpanArchitecture.P_CompareFloatValues;
 
-using OpenSpanArchitecture_P_CompareStringValues = OpenSpanArchitecture.P_CompareStringValues;
-
 using OpenSpanArchitecture_P_CompareIntegerValues = OpenSpanArchitecture.P_CompareIntegerValues;
-
-using OpenSpanArchitecture_P_ContainsStringValue = OpenSpanArchitecture.P_ContainsStringValue;
 
 using OpenSpanArchitecture_P_ConvertStringToDouble = OpenSpanArchitecture.P_ConvertStringToDouble;
 
@@ -64,9 +78,13 @@ using OpenSpanArchitecture_P_ConvertStringToFloat = OpenSpanArchitecture.P_Conve
 
 using OpenSpanArchitecture_P_ConvertStringToInteger = OpenSpanArchitecture.P_ConvertStringToInteger;
 
-using OpenSpanArchitecture_P_FormatEmail = OpenSpanArchitecture.P_FormatEmail;
+using OpenSpanArchitecture_P_FormatBankCheckingAccount = OpenSpanArchitecture.P_FormatBankCheckingAccount;
 
-using OpenSpanArchitecture_SystemGlobalContainer = OpenSpanArchitecture.SystemGlobalContainer;
+using OpenSpanArchitecture_P_FormatCEP = OpenSpanArchitecture.P_FormatCEP;
+
+using OpenSpanArchitecture_P_FormatCPF = OpenSpanArchitecture.P_FormatCPF;
+
+using OpenSpanArchitecture_P_FormatEmail = OpenSpanArchitecture.P_FormatEmail;
 
 using System;
 
@@ -207,33 +225,6 @@ public sealed class OpenSpanArchitecture : OpenSpan.Runtime.RuntimeProject
 		}
 	}
 	
-	// Automator-8D2B83B0A196237
-	public OpenSpanArchitecture_F_CompareDoubleValues F_CompareDoubleValues
-	{
-		get
-		{
-			return ((OpenSpanArchitecture_F_CompareDoubleValues)(this["F_CompareDoubleValues"]));
-		}
-	}
-	
-	// Automator-8D2B83ABC3A54C9
-	public OpenSpanArchitecture_F_CompareFloatValues F_CompareFloatValues
-	{
-		get
-		{
-			return ((OpenSpanArchitecture_F_CompareFloatValues)(this["F_CompareFloatValues"]));
-		}
-	}
-	
-	// Automator-8D2B5115AF9DD91
-	public OpenSpanArchitecture_F_CompareIntegerValues F_CompareIntegerValues
-	{
-		get
-		{
-			return ((OpenSpanArchitecture_F_CompareIntegerValues)(this["F_CompareIntegerValues"]));
-		}
-	}
-	
 	// Automator-8D2B46B48DE9CDD
 	public OpenSpanArchitecture_F_CompareStringValues F_CompareStringValues
 	{
@@ -279,15 +270,6 @@ public sealed class OpenSpanArchitecture : OpenSpan.Runtime.RuntimeProject
 		}
 	}
 	
-	// Automator-8D2B47906712695
-	public OpenSpanArchitecture_F_FormatEmail F_FormatEmail
-	{
-		get
-		{
-			return ((OpenSpanArchitecture_F_FormatEmail)(this["F_FormatEmail"]));
-		}
-	}
-	
 	// Automator-8D2B4472D6C6FD6
 	public OpenSpanArchitecture_F_WriteDiagnosticLogByType F_WriteDiagnosticLogByType
 	{
@@ -303,6 +285,96 @@ public sealed class OpenSpanArchitecture : OpenSpan.Runtime.RuntimeProject
 		get
 		{
 			return ((OpenSpanArchitecture_F_WriteEventLogByType)(this["F_WriteEventLogByType"]));
+		}
+	}
+	
+	// Automator-8D2B512C37C5C52
+	public OpenSpanArchitecture_P_CompareStringValues P_CompareStringValues
+	{
+		get
+		{
+			return ((OpenSpanArchitecture_P_CompareStringValues)(this["P_CompareStringValues"]));
+		}
+	}
+	
+	// Automator-8D2B485797A403D
+	public OpenSpanArchitecture_P_ContainsStringValue P_ContainsStringValue
+	{
+		get
+		{
+			return ((OpenSpanArchitecture_P_ContainsStringValue)(this["P_ContainsStringValue"]));
+		}
+	}
+	
+	// GlobalContainer-8D2B446F28A4776
+	public OpenSpanArchitecture_SystemGlobalContainer SystemGlobalContainer
+	{
+		get
+		{
+			return ((OpenSpanArchitecture_SystemGlobalContainer)(this["SystemGlobalContainer"]));
+		}
+	}
+	
+	// Automator-8D2B83B0A196237
+	public OpenSpanArchitecture_F_CompareDoubleValues F_CompareDoubleValues
+	{
+		get
+		{
+			return ((OpenSpanArchitecture_F_CompareDoubleValues)(this["F_CompareDoubleValues"]));
+		}
+	}
+	
+	// Automator-8D2B83ABC3A54C9
+	public OpenSpanArchitecture_F_CompareFloatValues F_CompareFloatValues
+	{
+		get
+		{
+			return ((OpenSpanArchitecture_F_CompareFloatValues)(this["F_CompareFloatValues"]));
+		}
+	}
+	
+	// Automator-8D2B5115AF9DD91
+	public OpenSpanArchitecture_F_CompareIntegerValues F_CompareIntegerValues
+	{
+		get
+		{
+			return ((OpenSpanArchitecture_F_CompareIntegerValues)(this["F_CompareIntegerValues"]));
+		}
+	}
+	
+	// Automator-8D2B91DA252C4BE
+	public OpenSpanArchitecture_F_FormatBankCheckingAccount F_FormatBankCheckingAccount
+	{
+		get
+		{
+			return ((OpenSpanArchitecture_F_FormatBankCheckingAccount)(this["F_FormatBankCheckingAccount"]));
+		}
+	}
+	
+	// Automator-8D2B9002E0C512A
+	public OpenSpanArchitecture_F_FormatCPF F_FormatCPF
+	{
+		get
+		{
+			return ((OpenSpanArchitecture_F_FormatCPF)(this["F_FormatCPF"]));
+		}
+	}
+	
+	// Automator-8D2B47906712695
+	public OpenSpanArchitecture_F_FormatEmail F_FormatEmail
+	{
+		get
+		{
+			return ((OpenSpanArchitecture_F_FormatEmail)(this["F_FormatEmail"]));
+		}
+	}
+	
+	// Automator-8D2B8FB5960125E
+	public OpenSpanArchitecture_F_FormatCEP F_FormatCEP
+	{
+		get
+		{
+			return ((OpenSpanArchitecture_F_FormatCEP)(this["F_FormatCEP"]));
 		}
 	}
 	
@@ -387,6 +459,33 @@ public sealed class OpenSpanArchitecture : OpenSpan.Runtime.RuntimeProject
 		}
 	}
 	
+	// Automator-8D2B9219EF5BFB3
+	public OpenSpanArchitecture__P_FormatBankCheckingAccount _P_FormatBankCheckingAccount
+	{
+		get
+		{
+			return ((OpenSpanArchitecture__P_FormatBankCheckingAccount)(this["_P_FormatBankCheckingAccount"]));
+		}
+	}
+	
+	// Automator-8D2B907D6C2561C
+	public OpenSpanArchitecture__P_FormatCEP _P_FormatCEP
+	{
+		get
+		{
+			return ((OpenSpanArchitecture__P_FormatCEP)(this["_P_FormatCEP"]));
+		}
+	}
+	
+	// Automator-8D2B907DDA1A370
+	public OpenSpanArchitecture__P_FormatCPF _P_FormatCPF
+	{
+		get
+		{
+			return ((OpenSpanArchitecture__P_FormatCPF)(this["_P_FormatCPF"]));
+		}
+	}
+	
 	// Automator-8D2B47DAEC1EB42
 	public OpenSpanArchitecture__P_FormatEmail _P_FormatEmail
 	{
@@ -414,30 +513,12 @@ public sealed class OpenSpanArchitecture : OpenSpan.Runtime.RuntimeProject
 		}
 	}
 	
-	// Automator-8D2B512C37C5C52
-	public OpenSpanArchitecture_P_CompareStringValues P_CompareStringValues
-	{
-		get
-		{
-			return ((OpenSpanArchitecture_P_CompareStringValues)(this["P_CompareStringValues"]));
-		}
-	}
-	
 	// Automator-8D2B507D8F8446B
 	public OpenSpanArchitecture_P_CompareIntegerValues P_CompareIntegerValues
 	{
 		get
 		{
 			return ((OpenSpanArchitecture_P_CompareIntegerValues)(this["P_CompareIntegerValues"]));
-		}
-	}
-	
-	// Automator-8D2B485797A403D
-	public OpenSpanArchitecture_P_ContainsStringValue P_ContainsStringValue
-	{
-		get
-		{
-			return ((OpenSpanArchitecture_P_ContainsStringValue)(this["P_ContainsStringValue"]));
 		}
 	}
 	
@@ -468,21 +549,39 @@ public sealed class OpenSpanArchitecture : OpenSpan.Runtime.RuntimeProject
 		}
 	}
 	
+	// Automator-8D2B9237783FE4A
+	public OpenSpanArchitecture_P_FormatBankCheckingAccount P_FormatBankCheckingAccount
+	{
+		get
+		{
+			return ((OpenSpanArchitecture_P_FormatBankCheckingAccount)(this["P_FormatBankCheckingAccount"]));
+		}
+	}
+	
+	// Automator-8D2B90AEF199932
+	public OpenSpanArchitecture_P_FormatCEP P_FormatCEP
+	{
+		get
+		{
+			return ((OpenSpanArchitecture_P_FormatCEP)(this["P_FormatCEP"]));
+		}
+	}
+	
+	// Automator-8D2B90AF5AEBCB6
+	public OpenSpanArchitecture_P_FormatCPF P_FormatCPF
+	{
+		get
+		{
+			return ((OpenSpanArchitecture_P_FormatCPF)(this["P_FormatCPF"]));
+		}
+	}
+	
 	// Automator-8D2B480E94EB6F1
 	public OpenSpanArchitecture_P_FormatEmail P_FormatEmail
 	{
 		get
 		{
 			return ((OpenSpanArchitecture_P_FormatEmail)(this["P_FormatEmail"]));
-		}
-	}
-	
-	// GlobalContainer-8D2B446F28A4776
-	public OpenSpanArchitecture_SystemGlobalContainer SystemGlobalContainer
-	{
-		get
-		{
-			return ((OpenSpanArchitecture_SystemGlobalContainer)(this["SystemGlobalContainer"]));
 		}
 	}
 }

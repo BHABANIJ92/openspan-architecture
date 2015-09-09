@@ -1,8 +1,8 @@
 <DeploymentManifest version="4.0">
-  <CompositeStudioProject name="OpenSpanArchitecture" fileName="OpenSpanArchitecture.dll" assemblyName="OpenSpanArchitecture.dll" id="Project-8D2B445854EFE75" version="6.2.14.0" deploymentVersion="1.0" configuration="" obfuscated="False" runtime="True" digest="5AC34A9C55B29B013FACFF143F4B8B">
+  <CompositeStudioProject name="OpenSpanArchitecture" fileName="OpenSpanArchitecture.dll" assemblyName="OpenSpanArchitecture.dll" id="Project-8D2B445854EFE75" version="6.2.14.0" deploymentVersion="1.0" configuration="" obfuscated="False" runtime="True" digest="A17726D9376D7E6AEAE2EC361BAD3D">
     <Assemblies>
-      <Assembly value="OpenSpanArchitecture.dll" digest="299E4349CFFD85E33078F9D57F87AA" />
-      <Assembly value="OpenSpanArchitecture.pdb" digest="A4B092D94D1057D7BB665C13652D52" />
+      <Assembly value="OpenSpanArchitecture.dll" digest="3E222B913317C59B1D8EDD42894AD3" />
+      <Assembly value="OpenSpanArchitecture.pdb" digest="F5E92518CF1AE30FF0BA639C9DD59C" />
     </Assemblies>
     <MiscFiles>
       <File value="ReleaseNotes.txt" digest="D41D8CD98F00B204E9800998ECF842" />

@@ -31,7 +31,10 @@ namespace OpenSpanArchitecture.Project
 			base.DesignComponentTypes.Add("OpenSpanArchitecture.F_ConvertStringToDouble");
 			base.DesignComponentTypes.Add("OpenSpanArchitecture.F_ConvertStringToFloat");
 			base.DesignComponentTypes.Add("OpenSpanArchitecture.F_ConvertStringToInteger");
+			base.DesignComponentTypes.Add("OpenSpanArchitecture.F_FormatBankCheckingAccount");
+			base.DesignComponentTypes.Add("OpenSpanArchitecture.F_FormatCPF");
 			base.DesignComponentTypes.Add("OpenSpanArchitecture.F_FormatEmail");
+			base.DesignComponentTypes.Add("OpenSpanArchitecture.F_FormatCEP");
 			base.DesignComponentTypes.Add("OpenSpanArchitecture.F_WriteDiagnosticLogByType");
 			base.DesignComponentTypes.Add("OpenSpanArchitecture.F_WriteEventLogByType");
 			base.DesignComponentTypes.Add("OpenSpanArchitecture.F_ShowMessageDialog");
@@ -43,6 +46,9 @@ namespace OpenSpanArchitecture.Project
 			base.DesignComponentTypes.Add("OpenSpanArchitecture._P_ConvertStringToDouble");
 			base.DesignComponentTypes.Add("OpenSpanArchitecture._P_ConvertStringToFloat");
 			base.DesignComponentTypes.Add("OpenSpanArchitecture._P_ConvertStringToInteger");
+			base.DesignComponentTypes.Add("OpenSpanArchitecture._P_FormatBankCheckingAccount");
+			base.DesignComponentTypes.Add("OpenSpanArchitecture._P_FormatCEP");
+			base.DesignComponentTypes.Add("OpenSpanArchitecture._P_FormatCPF");
 			base.DesignComponentTypes.Add("OpenSpanArchitecture._P_FormatEmail");
 			base.DesignComponentTypes.Add("OpenSpanArchitecture.P_CompareDoubleValues");
 			base.DesignComponentTypes.Add("OpenSpanArchitecture.P_CompareFloatValues");
@@ -52,6 +58,9 @@ namespace OpenSpanArchitecture.Project
 			base.DesignComponentTypes.Add("OpenSpanArchitecture.P_ConvertStringToDouble");
 			base.DesignComponentTypes.Add("OpenSpanArchitecture.P_ConvertStringToFloat");
 			base.DesignComponentTypes.Add("OpenSpanArchitecture.P_ConvertStringToInteger");
+			base.DesignComponentTypes.Add("OpenSpanArchitecture.P_FormatBankCheckingAccount");
+			base.DesignComponentTypes.Add("OpenSpanArchitecture.P_FormatCEP");
+			base.DesignComponentTypes.Add("OpenSpanArchitecture.P_FormatCPF");
 			base.DesignComponentTypes.Add("OpenSpanArchitecture.P_FormatEmail");
 			base.DesignComponentTypes.Add("OpenSpanArchitecture.SystemGlobalContainer");
 			base.DesignComponentTypes.Add("OpenSpanArchitecture.WebAdapter");
