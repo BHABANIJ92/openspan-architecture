@@ -192,9 +192,17 @@
       <SubType>Component</SubType>
       <Id>Automator-8D2B83927771D36</Id>
     </Compile>
+    <Compile Include="System\Functions\F_FormatCPF.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B9002E0C512A</Id>
+    </Compile>
     <Compile Include="System\Functions\F_FormatEmail.os">
       <SubType>Component</SubType>
       <Id>Automator-8D2B47906712695</Id>
+    </Compile>
+    <Compile Include="System\Functions\F_FormatCEP.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B8FB5960125E</Id>
     </Compile>
     <Compile Include="System\Functions\F_WriteDiagnosticLogByType.os">
       <SubType>Component</SubType>
@@ -240,6 +248,14 @@
       <SubType>Component</SubType>
       <Id>Automator-8D2B84196D9F020</Id>
     </Compile>
+    <Compile Include="System\Procedures\Private\_P_FormatCEP.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B907D6C2561C</Id>
+    </Compile>
+    <Compile Include="System\Procedures\Private\_P_FormatCPF.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B907DDA1A370</Id>
+    </Compile>
     <Compile Include="System\Procedures\Private\_P_FormatEmail.os">
       <SubType>Component</SubType>
       <Id>Automator-8D2B47DAEC1EB42</Id>
@@ -275,6 +291,14 @@
     <Compile Include="System\Procedures\Public\P_ConvertStringToInteger.os">
       <SubType>Component</SubType>
       <Id>Automator-8D2B8431F16AC97</Id>
+    </Compile>
+    <Compile Include="System\Procedures\Public\P_FormatCEP.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B90AEF199932</Id>
+    </Compile>
+    <Compile Include="System\Procedures\Public\P_FormatCPF.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D2B90AF5AEBCB6</Id>
     </Compile>
     <Compile Include="System\Procedures\Public\P_FormatEmail.os">
       <SubType>Component</SubType>

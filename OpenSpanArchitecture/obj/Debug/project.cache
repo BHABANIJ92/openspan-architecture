@@ -27,7 +27,6 @@
     <DesignComponent id="Automator-8D2B84225B80739" className="P_ConvertStringToDouble" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D2B8429BC5D4A5" className="P_ConvertStringToFloat" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D2B8431F16AC97" className="P_ConvertStringToInteger" type="Automation" isPublic="True" screenShots="" />
-    <DesignComponent id="Automator-8D2B480E94EB6F1" className="P_FormatEmail" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="GlobalContainer-8D2B446F28A4776" className="SystemGlobalContainer" type="GlobalContainer" isPublic="True" screenShots="">
       <DynamicClasses>
         <DynamicClass id="Script-8D2B836FABD74A8" fileExt=".cs">

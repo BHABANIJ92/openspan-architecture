@@ -16,12 +16,12 @@
     <OpenSpan.Automation.Automator Name="_P_ConvertStringToDouble" Id="Automator-8D2B83F99CAED57">
       <AutomationDocument>
         <Name Value="" />
-        <Size Value="5007, 5000" />
+        <Size Value="5014, 5000" />
         <Objects>
           <ConnectionBlock>
             <ConnectableUniqueId Value="Automator-8D2B83F99CAED57\EntryPoint-8D2B83FE8B5B767" />
-            <Left Value="43" />
-            <Top Value="202" />
+            <Left Value="46" />
+            <Top Value="204" />
             <PartID Value="2" />
           </ConnectionBlock>
           <ConnectionBlock>
@@ -47,16 +47,16 @@
           </ConnectionBlock>
           <ConnectionBlock type="OpenSpan.Automation.Design.ConnectionBlocks.MultiExitPointBlock">
             <ConnectableUniqueId Value="Automator-8D2B83F99CAED57\ExitPoint-8D2B8403692CF65" />
-            <Left Value="203" />
-            <Top Value="342" />
+            <Left Value="206" />
+            <Top Value="344" />
             <PartID Value="8" />
             <Title Value="Exit" />
             <EventName Value="" />
           </ConnectionBlock>
           <ConnectionBlock>
             <ConnectableUniqueId Value="Automator-8D2B83F99CAED57\LabelHost-8D2B84042D5685F" />
-            <Left Value="43" />
-            <Top Value="342" />
+            <Left Value="46" />
+            <Top Value="344" />
             <PartID Value="9" />
           </ConnectionBlock>
           <ConnectionBlock>
@@ -74,7 +74,7 @@
             <ConnectableUniqueId Value="Automator-8D2B83F99CAED57\JumpHost-8D2B8406FCB1FFD" />
             <PartID Value="17" />
             <Left Value="960" />
-            <Top Value="497" />
+            <Top Value="496" />
             <Collapsed Value="False" />
             <WillExecute Value="True" />
             <InstanceName Value="Jump To" />
@@ -136,24 +136,24 @@
             <From PartID="9" PortName="Complete" PortType="Event" ConnectableId="Automator-8D2B83F99CAED57\LabelHost-8D2B84042D5685F" MemberComponentId="Automator-8D2B83F99CAED57\LabelHost-8D2B84042D5685F" />
             <To PartID="8" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D2B83F99CAED57\ExitPoint-8D2B8403692CF65" MemberComponentId="Automator-8D2B83F99CAED57\ExitPoint-8D2B8403692CF65" />
             <LinkPoints>
-              <Point value="140, 361" />
-              <Point value="150, 361" />
-              <Point value="173, 361" />
-              <Point value="173, 361" />
-              <Point value="196, 361" />
-              <Point value="206, 361" />
+              <Point value="143, 363" />
+              <Point value="153, 363" />
+              <Point value="176, 363" />
+              <Point value="176, 363" />
+              <Point value="199, 363" />
+              <Point value="209, 363" />
             </LinkPoints>
           </Link>
           <Link PartID="11" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
             <From PartID="9" PortName="_param1" PortType="Property" ConnectableId="Automator-8D2B83F99CAED57\LabelHost-8D2B84042D5685F" MemberComponentId="EMPTY" />
             <To PartID="8" PortName="Result" PortType="Property" ConnectableId="Automator-8D2B83F99CAED57\ExitPoint-8D2B8403692CF65" MemberComponentId="EMPTY" />
             <LinkPoints>
-              <Point value="140, 390" />
-              <Point value="150, 390" />
-              <Point value="173, 390" />
-              <Point value="173, 390" />
-              <Point value="196, 390" />
-              <Point value="206, 390" />
+              <Point value="143, 392" />
+              <Point value="153, 392" />
+              <Point value="176, 392" />
+              <Point value="176, 392" />
+              <Point value="199, 392" />
+              <Point value="209, 392" />
             </LinkPoints>
           </Link>
           <Link PartID="15" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
@@ -189,9 +189,9 @@
               <Point value="755, 225" />
               <Point value="755, 225" />
               <Point value="875, 225" />
-              <Point value="875, 516" />
-              <Point value="953, 516" />
-              <Point value="963, 516" />
+              <Point value="875, 512" />
+              <Point value="953, 512" />
+              <Point value="963, 512" />
             </LinkPoints>
           </Link>
           <Link PartID="21" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
@@ -236,16 +236,16 @@
               <Point value="643, 450" />
             </LinkPoints>
           </Link>
-          <Link PartID="24" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
+          <Link PartID="27" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
             <From PartID="20" PortName="Complete" PortType="Event" ConnectableId="Automator-8D2B83F99CAED57\ConnectableMethod-8D2B8407F11D1AD" MemberComponentId="Automator-8D2B4472D6C6FD6\ExitPoint-8D2B4498C5A924F" />
             <To PartID="17" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D2B83F99CAED57\JumpHost-8D2B8406FCB1FFD" MemberComponentId="Automator-8D2B83F99CAED57\JumpHost-8D2B8406FCB1FFD" />
             <LinkPoints>
               <Point value="859, 420" />
               <Point value="869, 420" />
               <Point value="875, 420" />
-              <Point value="875, 516" />
-              <Point value="953, 516" />
-              <Point value="963, 516" />
+              <Point value="875, 512" />
+              <Point value="953, 512" />
+              <Point value="963, 512" />
             </LinkPoints>
           </Link>
         </Links>
@@ -254,6 +254,9 @@
         </Comments>
         <SubGraphs />
       </AutomationDocument>
+      <DocumentPosition Value="Binary">
+        <Binary>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAu8aiQwAAAAAL</Binary>
+      </DocumentPosition>
       <DocumentScale Value="0.912295" />
       <StartOnProjectStart Value="False" />
       <Content Name="DynamicMembers">
