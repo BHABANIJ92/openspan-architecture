@@ -14,6 +14,7 @@ This repository contains a sample project of an OpenSpan Architecture Model foll
 - F_ConvertStringToDouble     (String value) **[P]**
 - F_ConvertStringToFloat      (String value) **[P]**
 - F_ConvertStringToInteger    (String value) **[P]**
+- F_FormatBankCheckingAccount   (String accountNumber) **[P]**
 - F_FormatCEP                 (String cep) **[P]**
 - F_FormatCPF                 (String cpf) **[P]**
 - F_FormatEmail               (String desiredEmail, String domain) **[P]**
