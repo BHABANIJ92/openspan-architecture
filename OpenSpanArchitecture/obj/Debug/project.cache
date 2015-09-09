@@ -22,7 +22,6 @@
     <DesignComponent id="Automator-8D2B83927771D36" className="F_ConvertStringToInteger" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D2B4472D6C6FD6" className="F_WriteDiagnosticLogByType" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D2B45233C2F3A1" className="F_WriteEventLogByType" type="Automation" isPublic="True" screenShots="" />
-    <DesignComponent id="Automator-8D2B4561632DBB2" className="F_ShowMessageDialog" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D2B512C37C5C52" className="P_CompareStringValues" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D2B485797A403D" className="P_ContainsStringValue" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D2B84225B80739" className="P_ConvertStringToDouble" type="Automation" isPublic="True" screenShots="" />

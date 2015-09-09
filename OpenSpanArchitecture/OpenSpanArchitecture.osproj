@@ -196,10 +196,6 @@
       <SubType>Component</SubType>
       <Id>Automator-8D2B47906712695</Id>
     </Compile>
-    <Compile Include="System\Functions\F_IsFieldEmpty.os">
-      <SubType>Component</SubType>
-      <Id>Automator-8D2B8F60F0FC0C0</Id>
-    </Compile>
     <Compile Include="System\Functions\F_WriteDiagnosticLogByType.os">
       <SubType>Component</SubType>
       <Id>Automator-8D2B4472D6C6FD6</Id>
